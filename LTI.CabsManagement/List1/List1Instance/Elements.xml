@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Cab_Request_List" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Cab_Request_List" Description="My List Instance"></ListInstance>
+</Elements>

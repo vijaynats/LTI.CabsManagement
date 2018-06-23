@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Vehicle_Despatcher_List" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Vehicle_Despatcher_List" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010053ffb629275146a6b1f3322235dc0f06" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{c3dfe276-ffd4-4116-b0ae-d5f836c88811}" Name="Dfsdf" /><FieldRef ID="{187ff4dd-5bcb-4dbc-83b6-ec8340a8f10f}" Name="CabRequest" /><FieldRef ID="{754311c3-c9cc-4d42-a8f5-dcb49dc94f0f}" Name="StartDateandTime" /><FieldRef ID="{ea53822e-f2c2-4752-8e0b-5e813701b1d8}" Name="PickupLocation" /><FieldRef ID="{d7bd1741-62a4-406e-a1eb-d5b584d0a6ef}" Name="DropLocation" /><FieldRef ID="{ef0c2a8d-2ac0-4149-9cb1-7510976d5e0c}" Name="PickupAddress" /><FieldRef ID="{d826addf-0a59-4ec9-a618-d603d343ea94}" Name="DropAddress" /><FieldRef ID="{14ce9cc8-41d5-48c8-8a21-55c74f4c6a9d}" Name="PickupTime" /><FieldRef ID="{a0d04420-5f95-412e-8954-0d2a912bb25e}" Name="PassengerName" /><FieldRef ID="{8b3792f7-fe6e-4593-87eb-464bbc5e5487}" Name="VehicleMakeandModel" /><FieldRef ID="{79358e60-eda3-43f2-a260-12aafb4b4bcb}" Name="CabRegNo" /><FieldRef ID="{62383e45-3a81-4d62-ba07-7df11a0d9bef}" Name="DriverName" /><FieldRef ID="{b23e129a-3aa6-4148-940a-e3104177bd03}" Name="DriverMobile" /><FieldRef ID="{f51a7727-4754-4da3-af7f-9df6b5b9bdd1}" Name="DepatcherName" /><FieldRef ID="{da6b0ec1-6939-4166-b036-6027b6a0c8b9}" Name="DespatcherMobile" /><FieldRef ID="{251134d8-3583-4cc5-a057-47846c88e1bf}" Name="DespatcherNotes" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Dfsdf" ID="{c3dfe276-ffd4-4116-b0ae-d5f836c88811}" DisplayName="DespatchStatus" Type="Choice" Required="TRUE" /><Field Name="CabRequest" ID="{187ff4dd-5bcb-4dbc-83b6-ec8340a8f10f}" DisplayName="CabRequest" Type="Lookup" Required="TRUE" /><Field Name="StartDateandTime" ID="{754311c3-c9cc-4d42-a8f5-dcb49dc94f0f}" DisplayName="StartDate and Time" Type="DateTime" /><Field Name="PickupLocation" ID="{ea53822e-f2c2-4752-8e0b-5e813701b1d8}" DisplayName="PickupLocation" Type="Text" Required="TRUE" /><Field Name="DropLocation" ID="{d7bd1741-62a4-406e-a1eb-d5b584d0a6ef}" DisplayName="DropLocation" Type="Text" Required="TRUE" /><Field Name="PickupAddress" ID="{ef0c2a8d-2ac0-4149-9cb1-7510976d5e0c}" DisplayName="PickupAddress" Type="Note" /><Field Name="DropAddress" ID="{d826addf-0a59-4ec9-a618-d603d343ea94}" DisplayName="DropAddress" Type="Note" /><Field Name="PickupTime" ID="{14ce9cc8-41d5-48c8-8a21-55c74f4c6a9d}" DisplayName="PickupTime" Type="DateTime" Required="TRUE" /><Field Name="PassengerName" ID="{a0d04420-5f95-412e-8954-0d2a912bb25e}" DisplayName="PassengerName" Type="Text" /><Field Name="VehicleMakeandModel" ID="{8b3792f7-fe6e-4593-87eb-464bbc5e5487}" DisplayName="Vehicle Make and Model" Type="Choice" /><Field Name="CabRegNo" ID="{79358e60-eda3-43f2-a260-12aafb4b4bcb}" DisplayName="CabRegNo" Type="Text" /><Field Name="DriverName" ID="{62383e45-3a81-4d62-ba07-7df11a0d9bef}" DisplayName="DriverName" Type="Text" /><Field Name="DriverMobile" ID="{b23e129a-3aa6-4148-940a-e3104177bd03}" DisplayName="DriverMobile" Type="Text" /><Field Name="DepatcherName" ID="{f51a7727-4754-4da3-af7f-9df6b5b9bdd1}" DisplayName="DepatcherName" Type="User" Required="TRUE" List="UserInfo" /><Field Name="DespatcherMobile" ID="{da6b0ec1-6939-4166-b036-6027b6a0c8b9}" DisplayName="DespatcherMobile" Type="Text" Required="TRUE" /><Field Name="DespatcherNotes" ID="{251134d8-3583-4cc5-a057-47846c88e1bf}" DisplayName="DespatcherNotes" Type="Note" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Dfsdf" /><FieldRef Name="CabRequest" /><FieldRef Name="StartDateandTime" /><FieldRef Name="PickupLocation" /><FieldRef Name="DropLocation" /><FieldRef Name="PickupAddress" /><FieldRef Name="DropAddress" /><FieldRef Name="PickupTime" /><FieldRef Name="PassengerName" /><FieldRef Name="VehicleMakeandModel" /><FieldRef Name="CabRegNo" /><FieldRef Name="DriverName" /><FieldRef Name="DriverMobile" /><FieldRef Name="DepatcherName" /><FieldRef Name="DespatcherMobile" /><FieldRef Name="DespatcherNotes" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -41,9 +41,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
@@ -53,15 +57,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\CabReqFeature\CabReqFeature.feature">
-      <FeatureId>{ace043c7-dd86-4aee-a74d-e30d8270f1ec}</FeatureId>
+    <None Include="Features\CabRequestFeature\CabRequestFeature.feature">
+      <FeatureId>{1e5438b3-1b6d-4a2f-9dc2-dcf54471e784}</FeatureId>
     </None>
     <None Include="key.snk" />
-    <None Include="CabRequestLIst\List1Instance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{c74c3ff2-7b0d-4733-a93e-05171aa62431}</SharePointProjectItemId>
+    <None Include="List1\List1Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bc96ba82-a380-42dc-a10b-8943c858d3f0}</SharePointProjectItemId>
     </None>
-    <None Include="CabRequestLIst\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{b4dac35b-5734-44a7-bfa1-e841ba67ee94}</SharePointProjectItemId>
+    <None Include="List1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8e54d668-c4b4-4321-8bfa-4f7867d74683}</SharePointProjectItemId>
     </None>
     <None Include="Package\Package.package">
       <PackageId>{c834f300-abfa-465b-8618-c8229dfc6c5b}</PackageId>
@@ -69,24 +73,24 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="VehicleDespatcherList\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{e367b258-99ff-4cae-b7da-f903924e8ec5}</SharePointProjectItemId>
+    <None Include="Vehicle_Despatcher_List\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f9ece4d9-1eaf-4b46-90db-a34a87ed960a}</SharePointProjectItemId>
     </None>
-    <None Include="VehicleDespatcherList\VehicleDespatcherListInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{59f33f02-e1f9-4313-80d2-35143c2b0d75}</SharePointProjectItemId>
+    <None Include="Vehicle_Despatcher_List\Vehicle_Despatcher_ListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aef8e652-506b-4bf9-8789-8cb1baeb60a1}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Features\CabReqFeature\CabReqFeature.Template.xml">
-      <DependentUpon>CabReqFeature.feature</DependentUpon>
+    <Content Include="Features\CabRequestFeature\CabRequestFeature.Template.xml">
+      <DependentUpon>CabRequestFeature.feature</DependentUpon>
     </Content>
-    <Content Include="CabRequestLIst\Elements.xml" />
-    <Content Include="CabRequestLIst\List1Instance\Elements.xml" />
-    <Content Include="CabRequestLIst\Schema.xml" />
-    <Content Include="VehicleDespatcherList\Elements.xml" />
-    <Content Include="VehicleDespatcherList\Schema.xml" />
-    <Content Include="VehicleDespatcherList\VehicleDespatcherListInstance\Elements.xml" />
+    <Content Include="List1\Elements.xml" />
+    <Content Include="List1\List1Instance\Elements.xml" />
+    <Content Include="List1\Schema.xml" />
+    <Content Include="Vehicle_Despatcher_List\Elements.xml" />
+    <Content Include="Vehicle_Despatcher_List\Schema.xml" />
+    <Content Include="Vehicle_Despatcher_List\Vehicle_Despatcher_ListInstance\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
