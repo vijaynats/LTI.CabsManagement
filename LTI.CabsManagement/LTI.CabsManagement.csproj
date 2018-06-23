@@ -56,11 +56,14 @@
     <None Include="Features\Feature1\Feature1.feature">
       <FeatureId>{ace043c7-dd86-4aee-a74d-e30d8270f1ec}</FeatureId>
     </None>
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{99042290-00db-4890-ad25-e2512c3ad39e}</FeatureId>
+    </None>
     <None Include="key.snk" />
-    <None Include="List1\List1Instance\SharePointProjectItem.spdata">
+    <None Include="CabRequestLIst\List1Instance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c74c3ff2-7b0d-4733-a93e-05171aa62431}</SharePointProjectItemId>
     </None>
-    <None Include="List1\SharePointProjectItem.spdata">
+    <None Include="CabRequestLIst\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{b4dac35b-5734-44a7-bfa1-e841ba67ee94}</SharePointProjectItemId>
     </None>
     <None Include="Package\Package.package">
@@ -69,15 +72,27 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="VehicleDespatcherList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e367b258-99ff-4cae-b7da-f903924e8ec5}</SharePointProjectItemId>
+    </None>
+    <None Include="VehicleDespatcherList\VehicleDespatcherListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{59f33f02-e1f9-4313-80d2-35143c2b0d75}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
-    <Content Include="List1\Elements.xml" />
-    <Content Include="List1\List1Instance\Elements.xml" />
-    <Content Include="List1\Schema.xml" />
+    <Content Include="CabRequestLIst\Elements.xml" />
+    <Content Include="CabRequestLIst\List1Instance\Elements.xml" />
+    <Content Include="CabRequestLIst\Schema.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="VehicleDespatcherList\Elements.xml" />
+    <Content Include="VehicleDespatcherList\Schema.xml" />
+    <Content Include="VehicleDespatcherList\VehicleDespatcherListInstance\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
