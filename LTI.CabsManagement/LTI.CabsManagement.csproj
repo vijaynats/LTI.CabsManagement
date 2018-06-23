@@ -53,11 +53,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\CabReqFeature\CabReqFeature.feature">
       <FeatureId>{ace043c7-dd86-4aee-a74d-e30d8270f1ec}</FeatureId>
-    </None>
-    <None Include="Features\Feature2\Feature2.feature">
-      <FeatureId>{99042290-00db-4890-ad25-e2512c3ad39e}</FeatureId>
     </None>
     <None Include="key.snk" />
     <None Include="CabRequestLIst\List1Instance\SharePointProjectItem.spdata">
@@ -81,15 +78,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <Content Include="Features\CabReqFeature\CabReqFeature.Template.xml">
+      <DependentUpon>CabReqFeature.feature</DependentUpon>
     </Content>
     <Content Include="CabRequestLIst\Elements.xml" />
     <Content Include="CabRequestLIst\List1Instance\Elements.xml" />
     <Content Include="CabRequestLIst\Schema.xml" />
-    <Content Include="Features\Feature2\Feature2.Template.xml">
-      <DependentUpon>Feature2.feature</DependentUpon>
-    </Content>
     <Content Include="VehicleDespatcherList\Elements.xml" />
     <Content Include="VehicleDespatcherList\Schema.xml" />
     <Content Include="VehicleDespatcherList\VehicleDespatcherListInstance\Elements.xml" />
