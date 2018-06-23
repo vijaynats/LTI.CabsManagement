@@ -53,7 +53,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{ace043c7-dd86-4aee-a74d-e30d8270f1ec}</FeatureId>
+    </None>
     <None Include="key.snk" />
+    <None Include="List1\List1Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c74c3ff2-7b0d-4733-a93e-05171aa62431}</SharePointProjectItemId>
+    </None>
+    <None Include="List1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b4dac35b-5734-44a7-bfa1-e841ba67ee94}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{c834f300-abfa-465b-8618-c8229dfc6c5b}</PackageId>
     </None>
@@ -61,8 +70,14 @@
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Features\" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="List1\Elements.xml" />
+    <Content Include="List1\List1Instance\Elements.xml" />
+    <Content Include="List1\Schema.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
