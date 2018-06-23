@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="c834f300-abfa-465b-8618-c8229dfc6c5b" 
+        solutionId="c834f300-abfa-465b-8618-c8229dfc6c5b" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="LTI.CabsManagement"
+        sharePointProductVersion="15.0">
+</package>
