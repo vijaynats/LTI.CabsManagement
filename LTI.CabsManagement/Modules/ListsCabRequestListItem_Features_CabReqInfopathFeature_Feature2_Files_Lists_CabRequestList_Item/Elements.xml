@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="ListsCabRequestListItem_Features\CabReqInfopathFeature_Feature2\Files\Lists\CabRequestList\Item" Url="Lists/CabRequestList/Item" SetupPath="Features\CabReqInfopathFeature_Feature2\Files\Lists\CabRequestList\Item" RootWebOnly="FALSE" Path="Files\Lists\CabRequestList\Item" xmlns="http://schemas.microsoft.com/sharepoint/">
+    <File Url="template.xsn" Type="Ghostable" Level="Published" Path="template.xsn" />
+  </Module>
+</Elements>

@@ -6,11 +6,11 @@ using System.Security;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LTI.CabsManagement")]
+[assembly: AssemblyTitle("CabReqInfo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LTI.CabsManagement")]
+[assembly: AssemblyProduct("CabReqInfo")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +21,7 @@ using System.Security;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("04cfce8f-41a1-4fb8-abd7-d6fc27860434")]
+[assembly: Guid("cd102098-4c11-4d05-a421-a4fff5f14769")]
 
 // Version information for an assembly consists of the following four values:
 //
