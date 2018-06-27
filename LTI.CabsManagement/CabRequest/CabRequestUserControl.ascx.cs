@@ -65,7 +65,7 @@ namespace LTI.CabsManagement.CabRequest
         {
 
             lbError.Text = "";
-            SPSite site = new SPSite("http://cabreq.trg12.int/");
+            SPSite site = new SPSite("http://cabreq.trg11.int/");
             SPWeb web = site.RootWeb;
             SPUserCollection uc = web.AllUsers;
             int ch = 0;

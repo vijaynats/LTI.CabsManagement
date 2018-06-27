@@ -12,7 +12,7 @@ namespace LTI.CabsManagement.UpcomingTrips
             if (!IsPostBack)
                 try
                 {
-                    SPSite site = new SPSite("http://cabreq.trg12.int/");
+                    SPSite site = new SPSite("http://cabreq.trg11.int/");
                     SPWeb web = site.RootWeb;
                     SPList list = web.Lists["VehicleDispatchList"];
                     SPQuery q = new SPQuery();
@@ -23,7 +23,7 @@ namespace LTI.CabsManagement.UpcomingTrips
       </Eq>
    </Where>
    <OrderBy>
-      <FieldRef Name='StartDateandTime' Ascending='True' />
+      <FieldRef Name='PickupTime' Ascending='True' />
    </OrderBy>");
                     string[] pickuparr = { "Block4", "Block9", "Block10", "DLFLTI", "DLFMainBlock" };
                     SPListItemCollection items = list.GetItems(q);
@@ -33,9 +33,9 @@ namespace LTI.CabsManagement.UpcomingTrips
                         {
                             if (item["PickupLocation"].ToString() == x)
                             {
-                                if ((DateTime)item["StartDateandTime"] > DateTime.Now)
+                                if ((DateTime)item["PickupTime"] > DateTime.Now)
                                 {
-                                    var date = (DateTime)item["StartDateandTime"];
+                                    var date = (DateTime)item["PickupTime"];
                                     if (date.Date == DateTime.Now.Date)
                                     {
                                         this.Label4.Text = date.ToLongDateString();

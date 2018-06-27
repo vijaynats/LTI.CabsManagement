@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="CabRequestList" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/CabRequestList" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100a9873f9db9554f23be84f9914e85dddf" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{2c8af5b7-c81a-4a6f-b27b-71f6d5061936}" Name="RequestedBy" /><FieldRef ID="{5dcb1f12-e457-4f7e-9352-f066e3def854}" Name="TripType" /><FieldRef ID="{6bfc7c57-a36c-4e91-b21a-46320f9fe881}" Name="PickupLocation" /><FieldRef ID="{55a53aee-094f-43eb-bdcf-f60e1d19664e}" Name="DropLocation" /><FieldRef ID="{ba0091d8-6ede-4011-9af8-39fbbec39463}" Name="HomeAddress" /><FieldRef ID="{a162ebf3-5d8f-4da6-bf47-49a8a5af1e06}" Name="PickupTime" /><FieldRef ID="{0434cbad-6b8f-41a1-a903-504cd2027387}" Name="ManagerName" /><FieldRef ID="{424f7906-148f-4a42-b2ad-af91b5c56d7d}" Name="ContactPhone" /><FieldRef ID="{918a3358-a916-4b37-9963-5463bd8f9718}" Name="Notes1" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="RequestedBy" ID="{2c8af5b7-c81a-4a6f-b27b-71f6d5061936}" DisplayName="Requestedby" Type="Text" Required="TRUE" /><Field Name="TripType" ID="{5dcb1f12-e457-4f7e-9352-f066e3def854}" DisplayName="TripType" Type="Text" Required="TRUE" /><Field Name="PickupLocation" ID="{6bfc7c57-a36c-4e91-b21a-46320f9fe881}" DisplayName="PickupLocation" Type="Text" Required="TRUE" /><Field Name="DropLocation" ID="{55a53aee-094f-43eb-bdcf-f60e1d19664e}" DisplayName="DropLocation" Type="Text" Required="TRUE" /><Field Name="HomeAddress" ID="{ba0091d8-6ede-4011-9af8-39fbbec39463}" DisplayName="HomeAddress" Type="Note" /><Field Name="PickupTime" ID="{a162ebf3-5d8f-4da6-bf47-49a8a5af1e06}" DisplayName="PickupTime" Type="DateTime" Required="TRUE" /><Field Name="ManagerName" ID="{0434cbad-6b8f-41a1-a903-504cd2027387}" DisplayName="Managername" Type="Text" Required="TRUE" /><Field Name="ContactPhone" ID="{424f7906-148f-4a42-b2ad-af91b5c56d7d}" DisplayName="ContactPhone" Type="Text" /><Field Name="Notes1" ID="{918a3358-a916-4b37-9963-5463bd8f9718}" DisplayName="Notes" Type="Note" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="RequestedBy" /><FieldRef Name="TripType" /><FieldRef Name="PickupLocation" /><FieldRef Name="DropLocation" /><FieldRef Name="HomeAddress" /><FieldRef Name="PickupTime" /><FieldRef Name="ManagerName" /><FieldRef Name="ContactPhone" /><FieldRef Name="Notes1" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

@@ -40,14 +40,21 @@
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.DesignTime.Activities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Activities" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
@@ -62,7 +69,6 @@
     <Compile Include="CabRequest\CabRequestUserControl.ascx.designer.cs">
       <DependentUpon>CabRequestUserControl.ascx.cs</DependentUpon>
     </Compile>
-    <Compile Include="List instances\VehicleDispatchList\MailEvent\MailEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UpcomingTrips\UpcomingTrips.cs" />
     <Compile Include="UpcomingTrips\UpcomingTripsUserControl.ascx.cs">
@@ -72,66 +78,50 @@
     <Compile Include="UpcomingTrips\UpcomingTripsUserControl.ascx.designer.cs">
       <DependentUpon>UpcomingTripsUserControl.ascx.cs</DependentUpon>
     </Compile>
+    <Compile Include="VehicleDispatchList\MailEvent\MailEvent.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CabRequestList\CabRequestListInstance\Elements.xml" />
+    <Content Include="CabRequestList\Elements.xml" />
+    <Content Include="CabRequestList\Schema.xml" />
     <Content Include="CabRequest\CabRequestUserControl.ascx" />
     <Content Include="CabRequest\Elements.xml" />
-    <Content Include="Features\Feature3\Feature3.Template.xml">
-      <DependentUpon>Feature3.feature</DependentUpon>
+    <Content Include="Features\LTICabsWorkflow\LTICabsWorkflow.Template.xml">
+      <DependentUpon>LTICabsWorkflow.feature</DependentUpon>
     </Content>
-    <Content Include="List instances\CabRequestList\Elements.xml" />
-    <Content Include="List instances\CabRequestList\ListsCabRequestListInstance\Elements.xml" />
-    <Content Include="List instances\CabRequestList\Schema.xml" />
-    <Content Include="List instances\VehicleDispatchList\Elements.xml" />
-    <Content Include="List instances\VehicleDispatchList\ListsVehicleDispatchList_pages\Elements.xml" />
-    <Content Include="List instances\VehicleDispatchList\MailEvent\Elements.xml" />
-    <Content Include="List instances\VehicleDispatchList\Schema.xml" />
+    <Content Include="Features\LTICabsWebParts\LTICabsWebParts.Template.xml">
+      <DependentUpon>LTICabsWebParts.feature</DependentUpon>
+    </Content>
     <Content Include="PropertyBags\Elements.xml" />
+    <Content Include="Status\Elements.xml" />
     <Content Include="UpcomingTrips\Elements.xml" />
     <Content Include="UpcomingTrips\UpcomingTripsUserControl.ascx" />
+    <Content Include="VehicleDispatchList\Elements.xml" />
+    <Content Include="VehicleDispatchList\MailEvent\Elements.xml" />
+    <Content Include="VehicleDispatchList\Schema.xml" />
+    <Content Include="VehicleDispatchList\VehicleDispatchListInstance\Elements.xml" />
+    <Content Include="WorkflowHistoryList\Elements.xml" />
+    <Content Include="WorkflowTaskList\Elements.xml" />
+    <None Include="CabRequestList\CabRequestListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c56c1e5b-e6ce-4d68-9546-97643e5e5699}</SharePointProjectItemId>
+    </None>
+    <None Include="CabRequestList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{88e947ec-8d70-43ff-ad51-6d8ddd602b7a}</SharePointProjectItemId>
+    </None>
     <None Include="CabRequest\CabRequest.webpart" />
     <None Include="CabRequest\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5346310a-33bd-4db3-aede-29846861e05a}</SharePointProjectItemId>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\LTICabsWorkflow\LTICabsWorkflow.feature">
+      <FeatureId>{3bb4e93d-96a8-41ef-894c-94a171345f6d}</FeatureId>
+    </None>
+    <None Include="Features\LTICabsLists\LTICabsLists.feature">
       <FeatureId>{ed106293-6e6f-42d5-8485-8656ca1fc87f}</FeatureId>
     </None>
-    <None Include="Features\Feature3\Feature3.feature">
+    <None Include="Features\LTICabsWebParts\LTICabsWebParts.feature">
       <FeatureId>{61a1d529-01ac-48c8-a122-249f4f045617}</FeatureId>
     </None>
-    <None Include="Fields\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{6aaa9afa-d947-44cc-bde3-25898b122f1a}</SharePointProjectItemId>
-    </None>
     <None Include="key.snk" />
-    <None Include="List instances\CabRequestList\ListsCabRequestListInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{cd90097c-89db-42d3-ad04-e8a3fdda9679}</SharePointProjectItemId>
-    </None>
-    <None Include="List instances\CabRequestList\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{77ded630-b2d8-4df3-ae39-b75467ff8dc4}</SharePointProjectItemId>
-    </None>
-    <None Include="List instances\VehicleDispatchList\ListsVehicleDispatchList_pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{458facc0-7e04-4545-ae0b-d7d0ba3b1a5b}</SharePointProjectItemId>
-    </None>
-    <None Include="List instances\VehicleDispatchList\MailEvent\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{01990954-1ce1-4949-b843-e5c6dba867d3}</SharePointProjectItemId>
-    </None>
-    <None Include="List instances\VehicleDispatchList\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{d2068dcb-8622-4d8a-a9aa-25f65fa29b52}</SharePointProjectItemId>
-    </None>
-    <None Include="Modules\ListsCabRequestListItem_Features_CabReqInfopathFeature_Feature2_Files_Lists_CabRequestList_Item\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{8f927351-b0eb-499a-aa0e-194e5362dab7}</SharePointProjectItemId>
-    </None>
-    <None Include="Modules\ListsCabRequestListItem_pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{8e00f9ad-c98a-4a5e-9be8-42a52077de2e}</SharePointProjectItemId>
-    </None>
-    <Content Include="Modules\ListsVehicleDispatchListItem_pages\Elements.xml" />
-    <Content Include="Modules\ListsVehicleDispatchListItem_\Files\Lists\VehicleDispatchList\Item\template.xsn" />
-    <None Include="Modules\ListsVehicleDispatchListItem_pages\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{8c294305-2aa6-4f3d-b20c-c280f9f8c80c}</SharePointProjectItemId>
-    </None>
-    <None Include="Modules\ListsVehicleDispatchListItem_\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{163d7ff4-5a61-4d4f-bef2-b672226260bf}</SharePointProjectItemId>
-    </None>
     <None Include="Package\Package.package">
       <PackageId>{c834f300-abfa-465b-8618-c8229dfc6c5b}</PackageId>
     </None>
@@ -141,19 +131,39 @@
     <None Include="PropertyBags\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8ea57aa1-3f66-4db9-96f4-48b61d9ff922}</SharePointProjectItemId>
     </None>
+    <None Include="Status\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{081d7368-c742-4f4c-83d0-6a3857286586}</SharePointProjectItemId>
+    </None>
     <None Include="UpcomingTrips\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{bd7a9bf6-0a49-4ecf-a3b9-c9f6aef36e3d}</SharePointProjectItemId>
     </None>
     <None Include="UpcomingTrips\UpcomingTrips.webpart" />
+    <None Include="VehicleDispatchList\MailEvent\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d5576c73-abd8-4eb2-9e00-9d56f22ecefc}</SharePointProjectItemId>
+    </None>
+    <None Include="VehicleDispatchList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1eec3f9f-d9ab-4c70-857e-164662ccdc8e}</SharePointProjectItemId>
+    </None>
+    <None Include="VehicleDispatchList\VehicleDispatchListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bf03f202-e18e-4858-91be-0da3acf93407}</SharePointProjectItemId>
+    </None>
+    <None Include="WorkflowHistoryList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{710b94f5-f62d-45a4-83a7-f0d301545280}</SharePointProjectItemId>
+    </None>
+    <None Include="WorkflowTaskList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{132c28e7-f500-4f17-83e4-8126e5979e00}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <Content Include="Features\LTICabsLists\LTICabsLists.Template.xml">
+      <DependentUpon>LTICabsLists.feature</DependentUpon>
     </Content>
-    <Content Include="Fields\Elements.xml" />
-    <Content Include="Modules\ListsCabRequestListItem_Features_CabReqInfopathFeature_Feature2_Files_Lists_CabRequestList_Item\Elements.xml" />
-    <Content Include="Modules\ListsCabRequestListItem_pages\Elements.xml" />
-    <Content Include="Modules\ListsVehicleDispatchListItem_\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Status\Workflow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </XamlAppDef>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="ListsVehicleDispatchListItem_" Url="Lists/VehicleDispatchList/Item" RootWebOnly="FALSE" Path="Files\Lists\VehicleDispatchList\Item" xmlns="http://schemas.microsoft.com/sharepoint/">
-    <File Url="template.xsn" Level="Published" Path="template.xsn" />
+  </Module>
+  <Module Name="ListsVehicleDispatchListItem_">
+    <File Path="ListsVehicleDispatchListItem_\Files\Lists\VehicleDispatchList\Item\template.xsn" Url="ListsVehicleDispatchListItem_/Files/Lists/VehicleDispatchList/Item/template.xsn" />
   </Module>
 </Elements>
