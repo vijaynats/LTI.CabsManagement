@@ -93,7 +93,6 @@
       <DependentUpon>LTICabsWebParts.feature</DependentUpon>
     </Content>
     <Content Include="PropertyBags\Elements.xml" />
-    <Content Include="Status\Elements.xml" />
     <Content Include="UpcomingTrips\Elements.xml" />
     <Content Include="UpcomingTrips\UpcomingTripsUserControl.ascx" />
     <Content Include="VehicleDispatchList\Elements.xml" />
@@ -131,9 +130,6 @@
     <None Include="PropertyBags\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8ea57aa1-3f66-4db9-96f4-48b61d9ff922}</SharePointProjectItemId>
     </None>
-    <None Include="Status\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{081d7368-c742-4f4c-83d0-6a3857286586}</SharePointProjectItemId>
-    </None>
     <None Include="UpcomingTrips\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{bd7a9bf6-0a49-4ecf-a3b9-c9f6aef36e3d}</SharePointProjectItemId>
     </None>
@@ -148,22 +144,16 @@
       <SharePointProjectItemId>{bf03f202-e18e-4858-91be-0da3acf93407}</SharePointProjectItemId>
     </None>
     <None Include="WorkflowHistoryList\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{710b94f5-f62d-45a4-83a7-f0d301545280}</SharePointProjectItemId>
+      <SharePointProjectItemId>{50974e2b-378f-4e2b-b136-02725ae4d2b8}</SharePointProjectItemId>
     </None>
     <None Include="WorkflowTaskList\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{132c28e7-f500-4f17-83e4-8126e5979e00}</SharePointProjectItemId>
+      <SharePointProjectItemId>{21e6e7ba-642b-438b-ae1d-ba6b5474b964}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Features\LTICabsLists\LTICabsLists.Template.xml">
       <DependentUpon>LTICabsLists.feature</DependentUpon>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <XamlAppDef Include="Status\Workflow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </XamlAppDef>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

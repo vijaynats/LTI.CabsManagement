@@ -22,19 +22,13 @@ namespace LTI.CabsManagement.VehicleDispatchList.MailEvent
             base.ItemUpdated(properties);
             if (properties.ListTitle == "VehicleDispatchList")
             {
-                //int ch = 0;
+              
                 SPList list = properties.Web.Lists["VehicleDispatchList"];
                 SPListItem item = list.GetItemById(properties.ListItemId);
-                //System.Collections.Hashtable field = properties.ListItem.Fields.UpgradedPersistedProperties;
-                //foreach(var fieldvalue in field.Values)
-                //{
-                //    if (fieldvalue == "DespatchStatus")
-                //    {
-                //        ch = 1;
-                //    }
-                //}
+               
+                
 
-                if (item["DespatchStatus"].ToString() == "Cab Allocated" )
+                if (item["DespatchStatus"].ToString() == "Cab Allocated")
                 {
                     try
                     {
@@ -51,9 +45,9 @@ namespace LTI.CabsManagement.VehicleDispatchList.MailEvent
                                 StringDictionary headers = new StringDictionary();
 
 
-                                headers.Add("from", "http://cabreq.trg11.int");
-                                headers.Add("to", "jasonpauldj@gmail.com");
-                                headers.Add("bcc", "SharePointAdmin@domain.com");
+                                headers.Add("from", "Vehicle Dispatcher");
+                                headers.Add("to", item["Requestedby"].ToString());
+                                
                                 headers.Add("subject", "Cab Allocated.");
                                 headers.Add("fAppendHtmlTag", "True"); //To enable HTML format
 
@@ -74,42 +68,43 @@ namespace LTI.CabsManagement.VehicleDispatchList.MailEvent
                     }
                 }
                 else if (item["DespatchStatus"].ToString() == "CabNotAvailable")
-                {
-                    try
                     {
-
-                        using (SPSite Site = new SPSite("http://cabreq.trg11.int")) //Site collection URL
+                        try
                         {
-                            using (SPWeb web = Site.RootWeb) //Subsite URL
+
+                            using (SPSite Site = new SPSite("http://cabreq.trg11.int")) //Site collection URL
                             {
-                                if (!SPUtility.IsEmailServerSet(web))
+                                using (SPWeb web = Site.RootWeb) //Subsite URL
                                 {
-                                    return;
+                                    if (!SPUtility.IsEmailServerSet(web))
+                                    {
+                                        return;
+                                    }
+
+                                    StringDictionary headers = new StringDictionary();
+
+
+                                    headers.Add("from", "Vehicle Dispatcher");
+                                    headers.Add("to", item["Requestedby"].ToString());
+                                    headers.Add("cc", item["Managername"].ToString());
+                                    headers.Add("subject", "Cab not available.");
+                                    headers.Add("fAppendHtmlTag", "True"); //To enable HTML format
+
+                                    StringBuilder strMessage = new StringBuilder();
+                                    strMessage.Append("Message from Dispatcher:");
+
+                                    strMessage.Append(
+                                        "<span style='color:red;'> Your quota for this month has reached.No cab is allocated. </span>");
+                                    SPUtility.SendEmail(web, headers, strMessage.ToString());
+
+
+
                                 }
-
-                                StringDictionary headers = new StringDictionary();
-
-
-                                headers.Add("from", "http://cabreq.trg11.int");
-                                headers.Add("to", "jasonpauldj@gmail.com");
-                                headers.Add("bcc", "vimalraj96@gmail.com");
-                                headers.Add("subject", "Cab not available.");
-                                headers.Add("fAppendHtmlTag", "True"); //To enable HTML format
-
-                                StringBuilder strMessage = new StringBuilder();
-                                strMessage.Append("Message from Dispatcher:");
-
-                                strMessage.Append(
-                                    "<span style='color:red;'> Your quota for this month has reached.No cab is allocated. </span>");
-                                SPUtility.SendEmail(web, headers, strMessage.ToString());
-
-
-
                             }
                         }
-                    }
-                    catch (Exception ex)
-                    {
+                        catch (Exception ex)
+                        {
+                        }
                     }
 
                 }
@@ -119,4 +114,3 @@ namespace LTI.CabsManagement.VehicleDispatchList.MailEvent
 
 
     }
-}

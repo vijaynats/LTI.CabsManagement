@@ -6,7 +6,9 @@
       <Property Name="isReusable" Value="true" />
       <Property Name="RequiresInitiationForm" Value="False" />
       <Property Name="RequiresAssociationForm" Value="False" />
-      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSPublishState" Value="1" />
+      <Property Name="WSEventType" Value="ItemAdded" />
+      <Property Name="WSEnabled" Value="true" />
       <Property Name="WSDisplayName" Value="Status" />
       <Property Name="WSDescription" Value="My 'Status' Workflow" />
       <!-- If you change the name or Url of your custom initiation or association form, 
@@ -18,8 +20,8 @@
     <File Url="WorkflowStartAssociation" Path="Status\WorkflowStartAssociation" Type="GhostableInLibrary">
       <Property Name="WSDisplayName" Value="Status - Workflow Start" />
       <Property Name="ContentType" Value="WorkflowServiceSubscription" />
-      <Property Name="WSPublishState" Value="3" />
-      <Property Name="WSEventType" Value="WorkflowStart" />
+      <Property Name="WSPublishState" Value="1" />
+      <Property Name="WSEventType" Value="ItemAdded" />
       <Property Name="WSEnabled" Value="true" />
       <Property Name="WSGUID" Value="aea2f39f-c63e-48aa-b5cf-6879f31811dc" />
       <Property Name="WSEventSourceGUID" Value="{$ListId:Lists/CabRequestList;}" />
@@ -30,7 +32,7 @@
     <File Url="ItemAddedAssociation" Path="Status\ItemAddedAssociation" Type="GhostableInLibrary">
       <Property Name="WSDisplayName" Value="Status - Item Added" />
       <Property Name="ContentType" Value="WorkflowServiceSubscription" />
-      <Property Name="WSPublishState" Value="3" />
+      <Property Name="WSPublishState" Value="1" />
       <Property Name="WSEventType" Value="ItemAdded" />
       <Property Name="WSEnabled" Value="true" />
       <Property Name="WSGUID" Value="99ba7742-be5a-47e4-bd64-81c1a79f4da6" />

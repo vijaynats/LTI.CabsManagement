@@ -11,23 +11,28 @@
 
 <style type="text/css">
     .auto-style2 {
-        width: 20%;
+        width: 14%;
     }
     .auto-style3 {
         margin-left: 0px;
+       
     }
-    .auto-style4 {
-        margin-left: 218px;
+    .yourclass {
+        font-weight: bold;
+        margin-left: 0px;
+    }
+    .sty {
+        font-weight: bold;
     }
 </style>
 
 
 
-<table style="width: 100%; padding: 5px; border: 1px solid lightgray;">
+<table style="width: 100%; padding: 3px; border: 3px solid black;">
     <tr style="text-align: left;">
         <td class="auto-style2" >&nbsp;</td>
-        <td style="text-align: left;" colspan="3">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CAB REQUEST</td>
+        <td style="text-align: left;font-size: 30px" colspan="3">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CAB REQUEST</td>
     </tr>
     <tr style="text-align: left;">
         <td class="auto-style2" >&nbsp;</td>
@@ -41,18 +46,22 @@
     <tr style="text-align: left;">
         <td class="auto-style2">
 
-<asp:Label ID="Label1" runat="server" Text="Requested By"></asp:Label>
+&nbsp;&nbsp;&nbsp;
 
-        </td>
+<asp:Label ID="Label1" runat="server" CssClass="yourclass" Text="Requested By"></asp:Label>
+
+            :</td>
         <td style="text-align: left;">
-            <asp:TextBox ID="txtName" runat="server" Width="250px" CssClass="auto-style3"></asp:TextBox>
+            <asp:TextBox ID="txtName" runat="server" Width="302px" CssClass="auto-style3" Height="16px"></asp:TextBox>
 <asp:RequiredFieldValidator ID="valName" runat="server" ControlToValidate="txtName" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+            <br />
+            <br />
         </td>
-        <td>
+        <td style="font-weight: bold">
             Trip Type : 
         </td>
         <td>
-            <asp:DropDownList ID="ddlTripType" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlTripType_SelectedIndexChanged" CssClass="auto-style3">
+            <asp:DropDownList ID="ddlTripType"  runat="server" AutoPostBack="True" Height="20px" Width="311px" OnSelectedIndexChanged="ddlTripType_SelectedIndexChanged"  >
                 <asp:ListItem>Office to Home</asp:ListItem>
                 <asp:ListItem>Home to Office</asp:ListItem>
             </asp:DropDownList>
@@ -61,63 +70,75 @@
     </tr>
     <tr>
         <td class="auto-style2">
-    <asp:Label ID="lbPhone" runat="server" Text="Phone Number:"></asp:Label>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Label ID="lbPhone" runat="server"  CssClass="yourclass" Text="Phone Number:"></asp:Label>
         </td>
-        <td>
-    <asp:TextBox ID="txtConNNum" runat="server" Height="19px" Width="137px"></asp:TextBox>
+        <td colspan="3">
+    <asp:TextBox ID="txtConNNum"   runat="server" Height="16px" Width="302px"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtConNNum" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
     <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtConNNum" ErrorMessage="Please enter 10 digit  number" ValidationExpression="(?&lt;!\d)\d{10}(?!\d)"></asp:RegularExpressionValidator>
+            <br />
+            <br />
         </td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style2">
-    <asp:Label ID="lbPickUpLoc" runat="server" Text="Pick Up Location"></asp:Label>
-        </td>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Label ID="lbPickUpLoc"  CssClass="yourclass" runat="server" Text="Pick Up Location"></asp:Label>
+            :</td>
         <td>
-    <asp:DropDownList ID="ddlPickUpLoc" runat="server" style="margin-left: 2px">
+    <asp:DropDownList ID="ddlPickUpLoc"   runat="server" style="margin-left: 2px" Height="19px" Width="311px">
     </asp:DropDownList>
     <asp:RequiredFieldValidator ID="valddlPickUpLoc" runat="server" ControlToValidate="ddlPickUpLoc" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
+            <br />
+            <br />
         </td>
         <td>
-    <asp:Label ID="txtDropLoc" runat="server" Text="Drop Location"></asp:Label>
-        </td>
+    <asp:Label ID="txtDropLoc" CssClass="yourclass"  runat="server" Text="Drop Location"></asp:Label>
+            :</td>
         <td>
-    <asp:DropDownList ID="ddlDropLoc" runat="server">
+    <asp:DropDownList ID="ddlDropLoc"  runat="server" Height="20px" Width="311px">
     </asp:DropDownList>
     <asp:RequiredFieldValidator ID="valddlDropLoc" runat="server" ControlToValidate="ddlDropLoc" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
         </td>
     </tr>
     <tr>
         <td class="auto-style2">
-    <asp:Label ID="lbPickUpTime" runat="server" Text="Pick Up Time"></asp:Label>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Label ID="lbPickUpTime"  CssClass="yourclass" runat="server" Text="Pick Up Time"></asp:Label>
+            :</td>
+        <td>
+<SharePoint:DateTimeControl ID="PickUpTime" runat="server" AutoPostBack="True" IsRequiredField="True" OnDataBinding="PickUpTime_DataBinding" />
+            <br />
         </td>
         <td colspan="2">
-<SharePoint:DateTimeControl ID="PickUpTime" runat="server" AutoPostBack="True" IsRequiredField="True" OnDataBinding="PickUpTime_DataBinding" />
-        </td>
-        <td>
     <asp:Label ID="lbError" runat="server"></asp:Label>
         </td>
     </tr>
     <tr>
         <td class="auto-style2">
-    <asp:Label ID="lbHomeAdd" runat="server" Text="Drop Address"></asp:Label>
-        </td>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Label ID="lbHomeAdd"  CssClass="yourclass" runat="server" Text="Drop Address"></asp:Label>
+            :</td>
         <td colspan="2">
-    <asp:TextBox ID="txtHomeAdd" runat="server" Height="59px" style="margin-top: 4px" TextMode="MultiLine" Width="414px" CssClass="auto-style3"></asp:TextBox>
+    <asp:TextBox ID="txtHomeAdd" runat="server" Height="59px" style="margin-top: 4px" TextMode="MultiLine" Width="452px" CssClass="auto-style3"></asp:TextBox>
+            <br />
+            <br />
         </td>
         <td></td>
     </tr>
 
     <tr>
         <td class="auto-style2">
-    <asp:Label ID="lbManName" runat="server" Text="Manager:"></asp:Label>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Label ID="lbManName" runat="server"  CssClass="yourclass" Text="Manager:"></asp:Label>
         </td>
         <td>
-    <asp:TextBox ID="txtManName" runat="server" style="margin-left: 0px" Width="267px"></asp:TextBox>
+    <asp:TextBox ID="txtManName" runat="server" style="margin-left: 0px" Width="300px"></asp:TextBox>
     <asp:RequiredFieldValidator ID="valManName" runat="server" ControlToValidate="txtManName" ErrorMessage="*" ForeColor="#CC3300"></asp:RequiredFieldValidator>
     <asp:Label ID="lbman" runat="server"></asp:Label>
+            <br />
+            <br />
         </td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -125,10 +146,13 @@
 
     <tr>
         <td class="auto-style2">
-    <asp:Label ID="lbNotes" runat="server" Text="Notes"></asp:Label>
-        </td>
+    &nbsp;&nbsp;&nbsp;
+    <asp:Label ID="lbNotes" CssClass="yourclass" runat="server" Text="Notes"></asp:Label>
+            :</td>
         <td colspan="2">
-    <asp:TextBox ID="txtNotes" runat="server" TextMode="MultiLine" Width="435px" Height="124px"></asp:TextBox>
+    <asp:TextBox ID="txtNotes"  runat="server" TextMode="MultiLine" Width="446px" Height="124px"></asp:TextBox>
+            <br />
+            <br />
         </td>
         <td>&nbsp;</td>
     </tr>
@@ -136,7 +160,7 @@
     <tr>
         <td class="auto-style2">&nbsp;</td>
         <td colspan="2">
-    <asp:Button ID="btnRequest" runat="server" OnClick="btnRequest_Click" Text="SAVE" CssClass="auto-style4" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Button ID="btnRequest"  runat="server" OnClick="btnRequest_Click" Text="SAVE"  CssClass="yourclass" Width="47px" />
         </td>
         <td>&nbsp;</td>
     </tr>

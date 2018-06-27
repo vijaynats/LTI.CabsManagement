@@ -95,7 +95,8 @@ namespace LTI.CabsManagement.CabRequest
                     lbError.Text = "Pick up Time should not be more than 24 hours from Current Time";
                 else
                 {
-
+                    SPList list1 = web.Lists["VehicleDispatchList"];
+                    SPListItem item1 = list1.Items.Add();
                     SPList list = web.Lists["CabRequestList"];
                     SPListItem item = list.Items.Add();
                     item["Requestedby"] = txtName.Text;
@@ -104,14 +105,20 @@ namespace LTI.CabsManagement.CabRequest
                     item["DropLocation"] = ddlDropLoc.SelectedItem;
                     item["HomeAddress"] = txtHomeAdd.Text;
                     item["PickupTime"] = PickUpTime.SelectedDate;
-                  item["Managername"] = txtManName.Text;
+                    item["Managername"] = txtManName.Text;
                     item["ContactPhone"] = txtConNNum.Text;
                     item["Notes"] = txtNotes.Text;
 
-                  
+                    item1["Requestedby"] = txtName.Text;
+                    item1["PickupLocation"] = ddlPickUpLoc.SelectedItem;
+                    item1["DropLocation"] = ddlDropLoc.SelectedItem;
+                    item1["PickupTime"] = PickUpTime.SelectedDate;
+                    item1["Managername"] = txtManName.Text;
+
 
                     this.Message();
                     item.Update();
+                    item1.Update();
 
 
 
