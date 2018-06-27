@@ -2,5 +2,6 @@
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c834f300-abfa-465b-8618-c8229dfc6c5b" solutionId="c834f300-abfa-465b-8618-c8229dfc6c5b" resetWebServer="false" sharePointProductVersion="15.0" name="LTI.CabsManagement" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
   <features>
     <featureReference itemId="ed106293-6e6f-42d5-8485-8656ca1fc87f" />
+    <featureReference itemId="61a1d529-01ac-48c8-a122-249f4f045617" />
   </features>
 </package>

@@ -6,5 +6,6 @@
   </Files>
   <ExtensionData>
     <ExtensionDataItem Key="DeploymentConflictResolutionBehavior" Value="Automatic" />
+    <ExtensionDataItem Key="Microsoft.VisualStudio.SharePoint.ListSettings.ListFieldsContentTypeID" Value="0x0100d5438b5d1b1a4a79a658b33228dc9551" />
   </ExtensionData>
 </ProjectItem>

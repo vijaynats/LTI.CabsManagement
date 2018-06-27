@@ -54,20 +54,50 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="List instances\VehicleDispatchList\EventEmail\EventEmail.cs" />
+    <Compile Include="CabRequest\CabRequest.cs" />
+    <Compile Include="CabRequest\CabRequestUserControl.ascx.cs">
+      <DependentUpon>CabRequestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CabRequest\CabRequestUserControl.ascx.designer.cs">
+      <DependentUpon>CabRequestUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="List instances\VehicleDispatchList\MailEvent\MailEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UpcomingTrips\UpcomingTrips.cs" />
+    <Compile Include="UpcomingTrips\UpcomingTripsUserControl.ascx.cs">
+      <DependentUpon>UpcomingTripsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpcomingTrips\UpcomingTripsUserControl.ascx.designer.cs">
+      <DependentUpon>UpcomingTripsUserControl.ascx.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CabRequest\CabRequestUserControl.ascx" />
+    <Content Include="CabRequest\Elements.xml" />
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
     <Content Include="List instances\CabRequestList\Elements.xml" />
     <Content Include="List instances\CabRequestList\ListsCabRequestListInstance\Elements.xml" />
     <Content Include="List instances\CabRequestList\Schema.xml" />
     <Content Include="List instances\VehicleDispatchList\Elements.xml" />
-    <Content Include="List instances\VehicleDispatchList\EventEmail\Elements.xml" />
     <Content Include="List instances\VehicleDispatchList\ListsVehicleDispatchList_pages\Elements.xml" />
+    <Content Include="List instances\VehicleDispatchList\MailEvent\Elements.xml" />
     <Content Include="List instances\VehicleDispatchList\Schema.xml" />
     <Content Include="PropertyBags\Elements.xml" />
+    <Content Include="UpcomingTrips\Elements.xml" />
+    <Content Include="UpcomingTrips\UpcomingTripsUserControl.ascx" />
+    <None Include="CabRequest\CabRequest.webpart" />
+    <None Include="CabRequest\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5346310a-33bd-4db3-aede-29846861e05a}</SharePointProjectItemId>
+    </None>
     <None Include="Features\Feature1\Feature1.feature">
       <FeatureId>{ed106293-6e6f-42d5-8485-8656ca1fc87f}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{61a1d529-01ac-48c8-a122-249f4f045617}</FeatureId>
     </None>
     <None Include="Fields\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6aaa9afa-d947-44cc-bde3-25898b122f1a}</SharePointProjectItemId>
@@ -79,11 +109,11 @@
     <None Include="List instances\CabRequestList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{77ded630-b2d8-4df3-ae39-b75467ff8dc4}</SharePointProjectItemId>
     </None>
-    <None Include="List instances\VehicleDispatchList\EventEmail\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{2337c25d-4d87-4115-bc35-c64758bd9b7d}</SharePointProjectItemId>
-    </None>
     <None Include="List instances\VehicleDispatchList\ListsVehicleDispatchList_pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{458facc0-7e04-4545-ae0b-d7d0ba3b1a5b}</SharePointProjectItemId>
+    </None>
+    <None Include="List instances\VehicleDispatchList\MailEvent\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{01990954-1ce1-4949-b843-e5c6dba867d3}</SharePointProjectItemId>
     </None>
     <None Include="List instances\VehicleDispatchList\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d2068dcb-8622-4d8a-a9aa-25f65fa29b52}</SharePointProjectItemId>
@@ -111,6 +141,10 @@
     <None Include="PropertyBags\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8ea57aa1-3f66-4db9-96f4-48b61d9ff922}</SharePointProjectItemId>
     </None>
+    <None Include="UpcomingTrips\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bd7a9bf6-0a49-4ecf-a3b9-c9f6aef36e3d}</SharePointProjectItemId>
+    </None>
+    <None Include="UpcomingTrips\UpcomingTrips.webpart" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Features\Feature1\Feature1.Template.xml">

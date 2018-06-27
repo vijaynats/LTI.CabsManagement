@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="UpcomingTrips" List="113" Url="_catalogs/wp">
+    <File Path="UpcomingTrips\UpcomingTrips.webpart" Url="LTI.CabsManagement_UpcomingTrips.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

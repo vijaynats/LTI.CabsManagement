@@ -1,24 +1,27 @@
-﻿<List Title="VehicleDispatchList" Direction="none" Url="Lists/VehicleDispatchList" BaseType="0" Type="100" MultipleDataList="FALSE" BrowserFileHandling="permissive" NavigateForFormsPages="TRUE" FolderCreation="FALSE" Catalog="FALSE" SendToLocation="|" ImageUrl="/_layouts/15/images/itgen.png?rev=23" xmlns:ows="Microsoft SharePoint" xmlns:spctf="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms" xmlns="http://schemas.microsoft.com/sharepoint/">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List Title="VehicleDispatchList" Direction="none" Url="Lists/VehicleDispatchList" BaseType="0" Type="100" MultipleDataList="FALSE" BrowserFileHandling="permissive" NavigateForFormsPages="TRUE" FolderCreation="FALSE" Catalog="FALSE" SendToLocation="|" ImageUrl="/_layouts/15/images/itgen.png?rev=23" xmlns:ows="Microsoft SharePoint" xmlns:spctf="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms" xmlns="http://schemas.microsoft.com/sharepoint/">
   <MetaData>
     <ContentTypes>
-      <ContentType ID="0x01" Name="Item" Group="List Content Types" Description="Create a new list item." FeatureId="{695b6570-a48b-4a8e-8ea5-26ea7fc1d162}">
+      
+      
+    <ContentType ID="0x0100ce19e87c12954335b7006dae798be92f" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{1d22ea11-1e32-424e-89ab-9fedbadb6ce1}" Name="ID" /><FieldRef ID="{03e45e84-1992-4d42-9116-26f756012634}" Name="ContentTypeId" /><FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" /><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f}" Name="Modified" /><FieldRef ID="{8c06beca-0777-48f7-91c7-6da68bc07b69}" Name="Created" /><FieldRef ID="{1df5e554-ec7e-46a6-901d-d85a3881cb18}" Name="Author" /><FieldRef ID="{d31655d1-1d5b-4511-95a1-7a09e9b75bf2}" Name="Editor" /><FieldRef ID="{26d0756c-986a-48a7-af35-bf18ab85ff4a}" Name="_HasCopyDestinations" /><FieldRef ID="{6b4e226d-3d88-4a36-808d-a129bf52bccf}" Name="_CopySource" /><FieldRef ID="{d4e44a66-ee3a-4d02-88c9-4ec5ff3f4cd5}" Name="owshiddenversion" /><FieldRef ID="{f1e020bc-ba26-443f-bf2f-b68715017bbc}" Name="WorkflowVersion" /><FieldRef ID="{7841bf41-43d0-4434-9f50-a673baef7631}" Name="_UIVersion" /><FieldRef ID="{dce8262a-3ae9-45aa-aab4-83bd75fb738a}" Name="_UIVersionString" /><FieldRef ID="{67df98f4-9dec-48ff-a553-29bece9c5bf4}" Name="Attachments" /><FieldRef ID="{fdc3b2ed-5bf2-4835-a4bc-b885f3396a61}" Name="_ModerationStatus" /><FieldRef ID="{34ad21eb-75bd-4544-8c73-0e08330291fe}" Name="_ModerationComments" /><FieldRef ID="{503f1caa-358e-4918-9094-4a2cdc4bc034}" Name="Edit" /><FieldRef ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" Name="LinkTitleNoMenu" /><FieldRef ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" Name="LinkTitle" /><FieldRef ID="{5f190d91-3dbc-4489-9878-3c092caf35b6}" Name="LinkTitle2" /><FieldRef ID="{b1f7969b-ea65-42e1-8b54-b588292635f2}" Name="SelectTitle" /><FieldRef ID="{50a54da4-1528-4e67-954a-e2d24f1e9efb}" Name="InstanceID" /><FieldRef ID="{ca4addac-796f-4b23-b093-d2a3f65c0774}" Name="Order" /><FieldRef ID="{ae069f25-3ac2-4256-b9c3-15dbc15da0e0}" Name="GUID" /><FieldRef ID="{de8beacf-5505-47cd-80a6-aa44e7ffe2f4}" Name="WorkflowInstanceID" /><FieldRef ID="{94f89715-e097-4e8b-ba79-ea02aa8b7adb}" Name="FileRef" /><FieldRef ID="{56605df6-8fa1-47e4-a04c-5b384d59609f}" Name="FileDirRef" /><FieldRef ID="{173f76c8-aebd-446a-9bc9-769a2bd2c18f}" Name="Last_x0020_Modified" /><FieldRef ID="{998b5cff-4a35-47a7-92f3-3914aa6aa4a2}" Name="Created_x0020_Date" /><FieldRef ID="{30bb605f-5bae-48fe-b4e3-1f81d9772af9}" Name="FSObjType" /><FieldRef ID="{423874f8-c300-4bfb-b7a1-42e2159e3b19}" Name="SortBehavior" /><FieldRef ID="{ba3c27ee-4791-4867-8821-ff99000bac98}" Name="PermMask" /><FieldRef ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Name="FileLeafRef" /><FieldRef ID="{4b7403de-8d94-43e8-9f0f-137a3e298126}" Name="UniqueId" /><FieldRef ID="{6d2c4fde-3605-428e-a236-ce5f3dc2b4d4}" Name="SyncClientId" /><FieldRef ID="{c5c4b81c-f1d9-4b43-a6a2-090df32ebb68}" Name="ProgId" /><FieldRef ID="{dddd2420-b270-4735-93b5-92b713d0944d}" Name="ScopeId" /><FieldRef ID="{39360f11-34cf-4356-9945-25c44e68dade}" Name="File_x0020_Type" /><FieldRef ID="{4ef1b78f-fdba-48dc-b8ab-3fa06a0c9804}" Name="HTML_x0020_File_x0020_Type" /><FieldRef ID="{3c6303be-e21f-4366-80d7-d6d0a3b22c7a}" Name="_EditMenuTableStart" /><FieldRef ID="{1344423c-c7f9-4134-88e4-ad842e2d723c}" Name="_EditMenuTableStart2" /><FieldRef ID="{2ea78cef-1bf9-4019-960a-02c41636cb47}" Name="_EditMenuTableEnd" /><FieldRef ID="{9d30f126-ba48-446b-b8f9-83745f322ebe}" Name="LinkFilenameNoMenu" /><FieldRef ID="{5cc6dc79-3710-4374-b433-61cb4a686c12}" Name="LinkFilename" /><FieldRef ID="{224ba411-da77-4050-b0eb-62d422f13d3e}" Name="LinkFilename2" /><FieldRef ID="{081c6e4c-5c14-4f20-b23e-1a71ceb6a67c}" Name="DocIcon" /><FieldRef ID="{105f76ce-724a-4bba-aece-f81f2fce58f5}" Name="ServerUrl" /><FieldRef ID="{7177cfc7-f399-4d4d-905d-37dd51bc90bf}" Name="EncodedAbsUrl" /><FieldRef ID="{7615464b-559e-4302-b8e2-8f440b913101}" Name="BaseName" /><FieldRef ID="{687c7f94-686a-42d3-9b67-2782eac4b4f8}" Name="MetaInfo" /><FieldRef ID="{43bdd51b-3c5b-4e78-90a8-fb2087f71e70}" Name="_Level" /><FieldRef ID="{c101c3e7-122d-4d4d-bc34-58e94a38c816}" Name="_IsCurrentVersion" /><FieldRef ID="{b824e17e-a1b3-426e-aecf-f0184d900485}" Name="ItemChildCount" /><FieldRef ID="{960ff01f-2b6d-4f1b-9c3f-e19ad8927341}" Name="FolderChildCount" /><FieldRef ID="{6bfaba20-36bf-44b5-a1b2-eb6346d49716}" Name="AppAuthor" /><FieldRef ID="{e08400f3-c779-4ed2-a18c-ab7f34caa318}" Name="AppEditor" /><FieldRef ID="{28522c26-9a65-4921-b12b-ae87d7f6ba0c}" Name="DespatchStatus" /><FieldRef ID="{b7dc8ec6-f918-4618-b830-47ed1e8fea35}" Name="StartDateandTime" /><FieldRef ID="{a764f677-e8da-427b-b87e-850a8fc26e30}" Name="PickupLocation" /><FieldRef ID="{de65de70-11d2-4e5d-ac23-226e2ca7eb94}" Name="DropLocation" /><FieldRef ID="{47a76d3c-589e-4b75-a329-bdf9abc11f14}" Name="PassengerName" /><FieldRef ID="{591739cf-9bf1-41c1-aff0-b39c88641f40}" Name="Vehicle_x0020_MakeandModel" /><FieldRef ID="{ca26be8a-7249-476a-82f9-80bedc942cd0}" Name="CabRegNo" /><FieldRef ID="{4c92e35c-b75e-45e4-a677-0e8d9b89f2f7}" Name="DriverName" /><FieldRef ID="{178790d8-4fe4-431e-9c48-8a6e100261eb}" Name="DriverMobile" /><FieldRef ID="{334aa106-5be5-4c6b-8a41-d57c339ea30b}" Name="DepatcherName" /><FieldRef ID="{2d14e644-5ed5-4b01-9f7e-8fee13613f5b}" Name="DespatcherMobile" /><FieldRef ID="{d25661f9-61d0-479c-ad0d-426992baa072}" Name="DespatcherNotes" /></FieldRefs></ContentType><ContentType ID="0x01" Name="Item" Group="List Content Types" Description="Create a new list item." FeatureId="{695b6570-a48b-4a8e-8ea5-26ea7fc1d162}">
         <Folder TargetName="Item" />
         <FieldRefs>
-          <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
-          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Title" Required="TRUE" />
-          <FieldRef ID="{28522c26-9a65-4921-b12b-ae87d7f6ba0c}" Name="DespatchStatus" DisplayName="DespatchStatus" Required="TRUE" Format="Dropdown" />
-          <FieldRef ID="{b7dc8ec6-f918-4618-b830-47ed1e8fea35}" Name="StartDateandTime" DisplayName="StartDateandTime" Required="TRUE" Format="DateTime" />
-          <FieldRef ID="{a764f677-e8da-427b-b87e-850a8fc26e30}" Name="PickupLocation" DisplayName="PickupLocation" Required="TRUE" />
-          <FieldRef ID="{de65de70-11d2-4e5d-ac23-226e2ca7eb94}" Name="DropLocation" DisplayName="DropLocation" Required="TRUE" />
-          <FieldRef ID="{47a76d3c-589e-4b75-a329-bdf9abc11f14}" Name="PassengerName" DisplayName="PassengerName" Required="TRUE" />
-          <FieldRef ID="{591739cf-9bf1-41c1-aff0-b39c88641f40}" Name="Vehicle_x0020_MakeandModel" DisplayName="Vehicle MakeandModel" Required="FALSE" Format="Dropdown" />
-          <FieldRef ID="{ca26be8a-7249-476a-82f9-80bedc942cd0}" Name="CabRegNo" DisplayName="CabRegNo" Required="FALSE" />
-          <FieldRef ID="{4c92e35c-b75e-45e4-a677-0e8d9b89f2f7}" Name="DriverName" DisplayName="DriverName" Required="FALSE" />
-          <FieldRef ID="{178790d8-4fe4-431e-9c48-8a6e100261eb}" Name="DriverMobile" DisplayName="DriverMobile" Required="FALSE" />
-          <FieldRef ID="{334aa106-5be5-4c6b-8a41-d57c339ea30b}" Name="DepatcherName" DisplayName="DepatcherName" Required="TRUE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" />
-          <FieldRef ID="{2d14e644-5ed5-4b01-9f7e-8fee13613f5b}" Name="DespatcherMobile" DisplayName="DespatcherMobile" Required="TRUE" />
-          <FieldRef ID="{d25661f9-61d0-479c-ad0d-426992baa072}" Name="DespatcherNotes" DisplayName="DespatcherNotes" Required="FALSE" />
-        </FieldRefs>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" /><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" DisplayName="Title" Required="TRUE" /><FieldRef ID="{28522c26-9a65-4921-b12b-ae87d7f6ba0c}" Name="DespatchStatus" DisplayName="DespatchStatus" Required="TRUE" Format="Dropdown" /><FieldRef ID="{b7dc8ec6-f918-4618-b830-47ed1e8fea35}" Name="StartDateandTime" DisplayName="StartDateandTime" Required="TRUE" Format="DateTime" /><FieldRef ID="{a764f677-e8da-427b-b87e-850a8fc26e30}" Name="PickupLocation" DisplayName="PickupLocation" Required="TRUE" /><FieldRef ID="{de65de70-11d2-4e5d-ac23-226e2ca7eb94}" Name="DropLocation" DisplayName="DropLocation" Required="TRUE" /><FieldRef ID="{47a76d3c-589e-4b75-a329-bdf9abc11f14}" Name="PassengerName" DisplayName="PassengerName" Required="TRUE" /><FieldRef ID="{591739cf-9bf1-41c1-aff0-b39c88641f40}" Name="Vehicle_x0020_MakeandModel" DisplayName="Vehicle MakeandModel" Required="FALSE" Format="Dropdown" /><FieldRef ID="{ca26be8a-7249-476a-82f9-80bedc942cd0}" Name="CabRegNo" DisplayName="CabRegNo" Required="FALSE" /><FieldRef ID="{4c92e35c-b75e-45e4-a677-0e8d9b89f2f7}" Name="DriverName" DisplayName="DriverName" Required="FALSE" /><FieldRef ID="{178790d8-4fe4-431e-9c48-8a6e100261eb}" Name="DriverMobile" DisplayName="DriverMobile" Required="FALSE" /><FieldRef ID="{334aa106-5be5-4c6b-8a41-d57c339ea30b}" Name="DepatcherName" DisplayName="DepatcherName" Required="TRUE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" /><FieldRef ID="{2d14e644-5ed5-4b01-9f7e-8fee13613f5b}" Name="DespatcherMobile" DisplayName="DespatcherMobile" Required="TRUE" /><FieldRef ID="{d25661f9-61d0-479c-ad0d-426992baa072}" Name="DespatcherNotes" DisplayName="DespatcherNotes" Required="FALSE" /></FieldRefs>
         <XmlDocuments>
           <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
             <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
@@ -35,15 +38,14 @@
             </FormUrls>
           </XmlDocument>
         </XmlDocuments>
-      </ContentType>
-      <ContentType ID="0x0120" Name="Folder" Group="Folder Content Types" Description="Create a new folder." FeatureId="{695b6570-a48b-4a8e-8ea5-26ea7fc1d162}">
+      </ContentType><ContentType ID="0x0120" Name="Folder" Group="Folder Content Types" Description="Create a new folder." FeatureId="{695b6570-a48b-4a8e-8ea5-26ea7fc1d162}">
         <FieldRefs>
-          <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" />
-          <FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="FALSE" Hidden="TRUE" />
-          <FieldRef ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Name="FileLeafRef" Required="TRUE" Hidden="FALSE" />
-          <FieldRef ID="{b824e17e-a1b3-426e-aecf-f0184d900485}" Name="ItemChildCount" />
-          <FieldRef ID="{960ff01f-2b6d-4f1b-9c3f-e19ad8927341}" Name="FolderChildCount" />
-        </FieldRefs>
+          
+          
+          
+          
+          
+        <FieldRef ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Name="ContentType" /><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" Required="FALSE" Hidden="TRUE" /><FieldRef ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Name="FileLeafRef" Required="TRUE" Hidden="FALSE" /><FieldRef ID="{b824e17e-a1b3-426e-aecf-f0184d900485}" Name="ItemChildCount" /><FieldRef ID="{960ff01f-2b6d-4f1b-9c3f-e19ad8927341}" Name="FolderChildCount" /></FieldRefs>
         <XmlDocuments>
           <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
             <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
@@ -53,12 +55,78 @@
             </FormTemplates>
           </XmlDocument>
         </XmlDocuments>
-      </ContentType>
-    </ContentTypes>
+      </ContentType></ContentTypes>
     <Fields>
-      <Field ID="{1d22ea11-1e32-424e-89ab-9fedbadb6ce1}" ColName="tp_ID" RowOrdinal="0" ReadOnly="TRUE" Type="Counter" Name="ID" PrimaryKey="TRUE" DisplayName="ID" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ID" FromBaseType="TRUE" />
-      <Field ID="{03e45e84-1992-4d42-9116-26f756012634}" RowOrdinal="0" Type="ContentTypeId" Sealed="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="Content Type ID" Name="ContentTypeId" DisplaceOnUpgrade="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ContentTypeId" ColName="tp_ContentTypeId" FromBaseType="TRUE" />
-      <Field ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Type="Computed" DisplayName="Content Type" Name="ContentType" DisplaceOnUpgrade="TRUE" RenderXMLUsingPattern="TRUE" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ContentType" Group="_Hidden" PITarget="MicrosoftWindowsSharePointServices" PIAttribute="ContentTypeID" FromBaseType="TRUE">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <Field ID="{1d22ea11-1e32-424e-89ab-9fedbadb6ce1}" ColName="tp_ID" RowOrdinal="0" ReadOnly="TRUE" Type="Counter" Name="ID" PrimaryKey="TRUE" DisplayName="ID" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ID" FromBaseType="TRUE" /><Field ID="{03e45e84-1992-4d42-9116-26f756012634}" RowOrdinal="0" Type="ContentTypeId" Sealed="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="Content Type ID" Name="ContentTypeId" DisplaceOnUpgrade="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ContentTypeId" ColName="tp_ContentTypeId" FromBaseType="TRUE" /><Field ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Type="Computed" DisplayName="Content Type" Name="ContentType" DisplaceOnUpgrade="TRUE" RenderXMLUsingPattern="TRUE" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ContentType" Group="_Hidden" PITarget="MicrosoftWindowsSharePointServices" PIAttribute="ContentTypeID" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="ContentTypeId" />
         </FieldRefs>
@@ -67,33 +135,18 @@
             <Column Name="ContentTypeId" />
           </MapToContentType>
         </DisplayPattern>
-      </Field>
-      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Title" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" FromBaseType="TRUE" ColName="nvarchar12" RowOrdinal="0" MaxLength="255">
+      </Field><Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Title" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" FromBaseType="TRUE" ColName="nvarchar12" RowOrdinal="0" MaxLength="255">
         <Default />
-      </Field>
-      <Field ID="{28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f}" ColName="tp_Modified" RowOrdinal="0" ReadOnly="TRUE" Type="DateTime" Name="Modified" DisplayName="Modified" StorageTZ="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Modified" FromBaseType="TRUE" />
-      <Field ID="{8c06beca-0777-48f7-91c7-6da68bc07b69}" ColName="tp_Created" RowOrdinal="0" ReadOnly="TRUE" Type="DateTime" Name="Created" DisplayName="Created" StorageTZ="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Created" FromBaseType="TRUE" />
-      <Field ID="{1df5e554-ec7e-46a6-901d-d85a3881cb18}" ColName="tp_Author" RowOrdinal="0" ReadOnly="TRUE" Type="User" List="UserInfo" Name="Author" DisplayName="Created By" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Author" FromBaseType="TRUE" />
-      <Field ID="{d31655d1-1d5b-4511-95a1-7a09e9b75bf2}" ColName="tp_Editor" RowOrdinal="0" ReadOnly="TRUE" Type="User" List="UserInfo" Name="Editor" DisplayName="Modified By" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Editor" FromBaseType="TRUE" />
-      <Field ID="{26d0756c-986a-48a7-af35-bf18ab85ff4a}" ColName="tp_HasCopyDestinations" RowOrdinal="0" Sealed="TRUE" Hidden="TRUE" ReadOnly="TRUE" Type="Boolean" Name="_HasCopyDestinations" DisplaceOnUpgrade="TRUE" DisplayName="Has Copy Destinations" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_HasCopyDestinations" FromBaseType="TRUE" />
-      <Field ID="{6b4e226d-3d88-4a36-808d-a129bf52bccf}" ColName="tp_CopySource" RowOrdinal="0" Sealed="TRUE" Hidden="TRUE" ReadOnly="TRUE" Type="Text" Name="_CopySource" DisplaceOnUpgrade="TRUE" DisplayName="Copy Source" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_CopySource" FromBaseType="TRUE" />
-      <Field ID="{d4e44a66-ee3a-4d02-88c9-4ec5ff3f4cd5}" ColName="tp_Version" RowOrdinal="0" Hidden="TRUE" ReadOnly="TRUE" Type="Integer" SetAs="owshiddenversion" Name="owshiddenversion" DisplayName="owshiddenversion" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="owshiddenversion" FromBaseType="TRUE" />
-      <Field ID="{f1e020bc-ba26-443f-bf2f-b68715017bbc}" ColName="tp_WorkflowVersion" RowOrdinal="0" Hidden="TRUE" ReadOnly="TRUE" Type="Integer" Name="WorkflowVersion" DisplaceOnUpgrade="TRUE" DisplayName="Workflow Version" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkflowVersion" FromBaseType="TRUE" />
-      <Field ID="{7841bf41-43d0-4434-9f50-a673baef7631}" ColName="tp_UIVersion" RowOrdinal="0" ReadOnly="TRUE" Type="Integer" Name="_UIVersion" DisplaceOnUpgrade="TRUE" DisplayName="UI Version" Hidden="TRUE" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_UIVersion" FromBaseType="TRUE" />
-      <Field ID="{dce8262a-3ae9-45aa-aab4-83bd75fb738a}" ColName="tp_UIVersionString" RowOrdinal="0" ReadOnly="TRUE" Type="Text" Name="_UIVersionString" DisplaceOnUpgrade="TRUE" DisplayName="Version" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_UIVersionString" FromBaseType="TRUE" />
-      <Field ID="{67df98f4-9dec-48ff-a553-29bece9c5bf4}" ColName="tp_HasAttachment" RowOrdinal="0" Type="Attachments" Name="Attachments" DisplayName="Attachments" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Attachments" FromBaseType="TRUE" />
-      <Field ID="{fdc3b2ed-5bf2-4835-a4bc-b885f3396a61}" ColName="tp_ModerationStatus" RowOrdinal="0" ReadOnly="TRUE" Type="ModStat" Name="_ModerationStatus" DisplayName="Approval Status" Hidden="TRUE" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ModerationStatus" FromBaseType="TRUE">
+      </Field><Field ID="{28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f}" ColName="tp_Modified" RowOrdinal="0" ReadOnly="TRUE" Type="DateTime" Name="Modified" DisplayName="Modified" StorageTZ="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Modified" FromBaseType="TRUE" /><Field ID="{8c06beca-0777-48f7-91c7-6da68bc07b69}" ColName="tp_Created" RowOrdinal="0" ReadOnly="TRUE" Type="DateTime" Name="Created" DisplayName="Created" StorageTZ="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Created" FromBaseType="TRUE" /><Field ID="{1df5e554-ec7e-46a6-901d-d85a3881cb18}" ColName="tp_Author" RowOrdinal="0" ReadOnly="TRUE" Type="User" List="UserInfo" Name="Author" DisplayName="Created By" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Author" FromBaseType="TRUE" /><Field ID="{d31655d1-1d5b-4511-95a1-7a09e9b75bf2}" ColName="tp_Editor" RowOrdinal="0" ReadOnly="TRUE" Type="User" List="UserInfo" Name="Editor" DisplayName="Modified By" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Editor" FromBaseType="TRUE" /><Field ID="{26d0756c-986a-48a7-af35-bf18ab85ff4a}" ColName="tp_HasCopyDestinations" RowOrdinal="0" Sealed="TRUE" Hidden="TRUE" ReadOnly="TRUE" Type="Boolean" Name="_HasCopyDestinations" DisplaceOnUpgrade="TRUE" DisplayName="Has Copy Destinations" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_HasCopyDestinations" FromBaseType="TRUE" /><Field ID="{6b4e226d-3d88-4a36-808d-a129bf52bccf}" ColName="tp_CopySource" RowOrdinal="0" Sealed="TRUE" Hidden="TRUE" ReadOnly="TRUE" Type="Text" Name="_CopySource" DisplaceOnUpgrade="TRUE" DisplayName="Copy Source" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_CopySource" FromBaseType="TRUE" /><Field ID="{d4e44a66-ee3a-4d02-88c9-4ec5ff3f4cd5}" ColName="tp_Version" RowOrdinal="0" Hidden="TRUE" ReadOnly="TRUE" Type="Integer" SetAs="owshiddenversion" Name="owshiddenversion" DisplayName="owshiddenversion" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="owshiddenversion" FromBaseType="TRUE" /><Field ID="{f1e020bc-ba26-443f-bf2f-b68715017bbc}" ColName="tp_WorkflowVersion" RowOrdinal="0" Hidden="TRUE" ReadOnly="TRUE" Type="Integer" Name="WorkflowVersion" DisplaceOnUpgrade="TRUE" DisplayName="Workflow Version" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkflowVersion" FromBaseType="TRUE" /><Field ID="{7841bf41-43d0-4434-9f50-a673baef7631}" ColName="tp_UIVersion" RowOrdinal="0" ReadOnly="TRUE" Type="Integer" Name="_UIVersion" DisplaceOnUpgrade="TRUE" DisplayName="UI Version" Hidden="TRUE" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_UIVersion" FromBaseType="TRUE" /><Field ID="{dce8262a-3ae9-45aa-aab4-83bd75fb738a}" ColName="tp_UIVersionString" RowOrdinal="0" ReadOnly="TRUE" Type="Text" Name="_UIVersionString" DisplaceOnUpgrade="TRUE" DisplayName="Version" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_UIVersionString" FromBaseType="TRUE" /><Field ID="{67df98f4-9dec-48ff-a553-29bece9c5bf4}" ColName="tp_HasAttachment" RowOrdinal="0" Type="Attachments" Name="Attachments" DisplayName="Attachments" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Attachments" FromBaseType="TRUE" /><Field ID="{fdc3b2ed-5bf2-4835-a4bc-b885f3396a61}" ColName="tp_ModerationStatus" RowOrdinal="0" ReadOnly="TRUE" Type="ModStat" Name="_ModerationStatus" DisplayName="Approval Status" Hidden="TRUE" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ModerationStatus" FromBaseType="TRUE">
         <CHOICES>
-          <CHOICE>0;#Approved</CHOICE>
-          <CHOICE>1;#Rejected</CHOICE>
-          <CHOICE>2;#Pending</CHOICE>
-          <CHOICE>3;#Draft</CHOICE>
-          <CHOICE>4;#Scheduled</CHOICE>
-        </CHOICES>
+          
+          
+          
+          
+          
+        <CHOICE>0;#Approved</CHOICE><CHOICE>1;#Rejected</CHOICE><CHOICE>2;#Pending</CHOICE><CHOICE>3;#Draft</CHOICE><CHOICE>4;#Scheduled</CHOICE></CHOICES>
         <Default>0</Default>
-      </Field>
-      <Field ID="{34ad21eb-75bd-4544-8c73-0e08330291fe}" ReadOnly="TRUE" Type="Note" Name="_ModerationComments" DisplayName="Approver Comments" Hidden="TRUE" CanToggleHidden="TRUE" Filterable="FALSE" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ModerationComments" FromBaseType="TRUE" ColName="ntext3" RowOrdinal="0" />
-      <Field ID="{503f1caa-358e-4918-9094-4a2cdc4bc034}" ReadOnly="TRUE" Type="Computed" Name="Edit" Sortable="FALSE" Filterable="FALSE" DisplayName="Edit" ClassInfo="Icon" AuthoringInfo="(link to edit item)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Edit" FromBaseType="TRUE">
+      </Field><Field ID="{34ad21eb-75bd-4544-8c73-0e08330291fe}" ReadOnly="TRUE" Type="Note" Name="_ModerationComments" DisplayName="Approver Comments" Hidden="TRUE" CanToggleHidden="TRUE" Filterable="FALSE" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ModerationComments" FromBaseType="TRUE" ColName="ntext3" RowOrdinal="0" /><Field ID="{503f1caa-358e-4918-9094-4a2cdc4bc034}" ReadOnly="TRUE" Type="Computed" Name="Edit" Sortable="FALSE" Filterable="FALSE" DisplayName="Edit" ClassInfo="Icon" AuthoringInfo="(link to edit item)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Edit" FromBaseType="TRUE">
         <DisplayPattern>
           <IfHasRights>
             <RightsChoices>
@@ -115,8 +168,7 @@
             </Else>
           </IfHasRights>
         </DisplayPattern>
-      </Field>
-      <Field ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" ReadOnly="TRUE" Type="Computed" Name="LinkTitleNoMenu" DisplayName="Title" Dir="" DisplayNameSrcField="Title" AuthoringInfo="(linked to item)" EnableLookup="TRUE" ListItemMenuAllowed="Prohibited" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitleNoMenu" FromBaseType="TRUE">
+      </Field><Field ID="{bc91a437-52e7-49e1-8c4e-4698904b2b6d}" ReadOnly="TRUE" Type="Computed" Name="LinkTitleNoMenu" DisplayName="Title" Dir="" DisplayNameSrcField="Title" AuthoringInfo="(linked to item)" EnableLookup="TRUE" ListItemMenuAllowed="Prohibited" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitleNoMenu" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="Title" />
           <FieldRef Name="LinkFilenameNoMenu" />
@@ -155,8 +207,7 @@
             </Else>
           </IfEqual>
         </DisplayPattern>
-      </Field>
-      <Field ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" ReadOnly="TRUE" Type="Computed" Name="LinkTitle" DisplayName="Title" DisplayNameSrcField="Title" ClassInfo="Menu" AuthoringInfo="(linked to item with edit menu)" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle" FromBaseType="TRUE">
+      </Field><Field ID="{82642ec8-ef9b-478f-acf9-31f7d45fbc31}" ReadOnly="TRUE" Type="Computed" Name="LinkTitle" DisplayName="Title" DisplayNameSrcField="Title" ClassInfo="Menu" AuthoringInfo="(linked to item with edit menu)" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="Title" />
           <FieldRef Name="LinkTitleNoMenu" />
@@ -185,8 +236,7 @@
             </Default>
           </FieldSwitch>
         </DisplayPattern>
-      </Field>
-      <Field ID="{5f190d91-3dbc-4489-9878-3c092caf35b6}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="LinkTitle2" DisplayName="Title" DisplayNameSrcField="Title" ClassInfo="Menu" AuthoringInfo="(linked to item with edit menu) (old)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle2" FromBaseType="TRUE">
+      </Field><Field ID="{5f190d91-3dbc-4489-9878-3c092caf35b6}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="LinkTitle2" DisplayName="Title" DisplayNameSrcField="Title" ClassInfo="Menu" AuthoringInfo="(linked to item with edit menu) (old)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkTitle2" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="Title" />
           <FieldRef Name="LinkTitleNoMenu" />
@@ -210,8 +260,7 @@
             </Default>
           </FieldSwitch>
         </DisplayPattern>
-      </Field>
-      <Field ID="{b1f7969b-ea65-42e1-8b54-b588292635f2}" ReadOnly="TRUE" Type="Computed" Sortable="FALSE" Filterable="FALSE" Name="SelectTitle" Hidden="TRUE" CanToggleHidden="TRUE" DisplayName="Select" Dir="" AuthoringInfo="(web part connection)" HeaderImage="blank.gif" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SelectTitle" FromBaseType="TRUE">
+      </Field><Field ID="{b1f7969b-ea65-42e1-8b54-b588292635f2}" ReadOnly="TRUE" Type="Computed" Sortable="FALSE" Filterable="FALSE" Name="SelectTitle" Hidden="TRUE" CanToggleHidden="TRUE" DisplayName="Select" Dir="" AuthoringInfo="(web part connection)" HeaderImage="blank.gif" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SelectTitle" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="ID" />
         </FieldRefs>
@@ -249,38 +298,19 @@
             </Else>
           </IfEqual>
         </DisplayPattern>
-      </Field>
-      <Field ID="{50a54da4-1528-4e67-954a-e2d24f1e9efb}" Name="InstanceID" DisplayName="Instance ID" ColName="tp_InstanceID" RowOrdinal="0" ReadOnly="TRUE" Hidden="TRUE" Type="Integer" Min="0" Max="99991231" Filterable="TRUE" Sortable="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="InstanceID" FromBaseType="TRUE" />
-      <Field ID="{ca4addac-796f-4b23-b093-d2a3f65c0774}" ColName="tp_ItemOrder" RowOrdinal="0" Name="Order" DisplayName="Order" Type="Number" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Order" FromBaseType="TRUE" />
-      <Field ID="{ae069f25-3ac2-4256-b9c3-15dbc15da0e0}" ColName="tp_GUID" RowOrdinal="0" ReadOnly="TRUE" Hidden="TRUE" Type="Guid" Name="GUID" DisplayName="GUID" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="GUID" FromBaseType="TRUE" />
-      <Field ID="{de8beacf-5505-47cd-80a6-aa44e7ffe2f4}" ColName="tp_WorkflowInstanceID" RowOrdinal="0" ReadOnly="TRUE" Hidden="TRUE" Type="Guid" Name="WorkflowInstanceID" DisplaceOnUpgrade="TRUE" DisplayName="Workflow Instance ID" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkflowInstanceID" FromBaseType="TRUE" />
-      <Field ID="{94f89715-e097-4e8b-ba79-ea02aa8b7adb}" Name="FileRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="URL Path" List="Docs" FieldRef="ID" ShowField="FullUrl" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileRef" FromBaseType="TRUE" />
-      <Field ID="{56605df6-8fa1-47e4-a04c-5b384d59609f}" Name="FileDirRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="Path" List="Docs" FieldRef="ID" ShowField="DirName" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileDirRef" FromBaseType="TRUE" />
-      <Field ID="{173f76c8-aebd-446a-9bc9-769a2bd2c18f}" Name="Last_x0020_Modified" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="Modified" Type="Lookup" List="Docs" FieldRef="ID" ShowField="TimeLastModified" Format="TRUE" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Last_x0020_Modified" FromBaseType="TRUE" />
-      <Field ID="{998b5cff-4a35-47a7-92f3-3914aa6aa4a2}" Name="Created_x0020_Date" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="Created" Type="Lookup" List="Docs" FieldRef="ID" ShowField="TimeCreated" Format="TRUE" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Created_x0020_Date" FromBaseType="TRUE" />
-      <Field ID="{30bb605f-5bae-48fe-b4e3-1f81d9772af9}" Name="FSObjType" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Item Type" List="Docs" FieldRef="ID" ShowField="FSType" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FSObjType" FromBaseType="TRUE" />
-      <Field ID="{423874f8-c300-4bfb-b7a1-42e2159e3b19}" Name="SortBehavior" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sort Type" List="Docs" FieldRef="ID" ShowField="SortBehavior" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SortBehavior" FromBaseType="TRUE" />
-      <Field ID="{ba3c27ee-4791-4867-8821-ff99000bac98}" Name="PermMask" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" RenderXMLUsingPattern="TRUE" ShowInFileDlg="FALSE" Type="Computed" DisplayName="Effective Permissions Mask" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PermMask" FromBaseType="TRUE">
+      </Field><Field ID="{50a54da4-1528-4e67-954a-e2d24f1e9efb}" Name="InstanceID" DisplayName="Instance ID" ColName="tp_InstanceID" RowOrdinal="0" ReadOnly="TRUE" Hidden="TRUE" Type="Integer" Min="0" Max="99991231" Filterable="TRUE" Sortable="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="InstanceID" FromBaseType="TRUE" /><Field ID="{ca4addac-796f-4b23-b093-d2a3f65c0774}" ColName="tp_ItemOrder" RowOrdinal="0" Name="Order" DisplayName="Order" Type="Number" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Order" FromBaseType="TRUE" /><Field ID="{ae069f25-3ac2-4256-b9c3-15dbc15da0e0}" ColName="tp_GUID" RowOrdinal="0" ReadOnly="TRUE" Hidden="TRUE" Type="Guid" Name="GUID" DisplayName="GUID" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="GUID" FromBaseType="TRUE" /><Field ID="{de8beacf-5505-47cd-80a6-aa44e7ffe2f4}" ColName="tp_WorkflowInstanceID" RowOrdinal="0" ReadOnly="TRUE" Hidden="TRUE" Type="Guid" Name="WorkflowInstanceID" DisplaceOnUpgrade="TRUE" DisplayName="Workflow Instance ID" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="WorkflowInstanceID" FromBaseType="TRUE" /><Field ID="{94f89715-e097-4e8b-ba79-ea02aa8b7adb}" Name="FileRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="URL Path" List="Docs" FieldRef="ID" ShowField="FullUrl" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileRef" FromBaseType="TRUE" /><Field ID="{56605df6-8fa1-47e4-a04c-5b384d59609f}" Name="FileDirRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="Path" List="Docs" FieldRef="ID" ShowField="DirName" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileDirRef" FromBaseType="TRUE" /><Field ID="{173f76c8-aebd-446a-9bc9-769a2bd2c18f}" Name="Last_x0020_Modified" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="Modified" Type="Lookup" List="Docs" FieldRef="ID" ShowField="TimeLastModified" Format="TRUE" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Last_x0020_Modified" FromBaseType="TRUE" /><Field ID="{998b5cff-4a35-47a7-92f3-3914aa6aa4a2}" Name="Created_x0020_Date" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="Created" Type="Lookup" List="Docs" FieldRef="ID" ShowField="TimeCreated" Format="TRUE" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Created_x0020_Date" FromBaseType="TRUE" /><Field ID="{30bb605f-5bae-48fe-b4e3-1f81d9772af9}" Name="FSObjType" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Item Type" List="Docs" FieldRef="ID" ShowField="FSType" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FSObjType" FromBaseType="TRUE" /><Field ID="{423874f8-c300-4bfb-b7a1-42e2159e3b19}" Name="SortBehavior" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Sort Type" List="Docs" FieldRef="ID" ShowField="SortBehavior" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SortBehavior" FromBaseType="TRUE" /><Field ID="{ba3c27ee-4791-4867-8821-ff99000bac98}" Name="PermMask" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" RenderXMLUsingPattern="TRUE" ShowInFileDlg="FALSE" Type="Computed" DisplayName="Effective Permissions Mask" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PermMask" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="ID" />
         </FieldRefs>
         <DisplayPattern>
           <CurrentRights />
         </DisplayPattern>
-      </Field>
-      <Field ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Hidden="TRUE" ShowInFileDlg="FALSE" ShowInVersionHistory="FALSE" Type="File" Name="FileLeafRef" DisplaceOnUpgrade="TRUE" DisplayName="Name" AuthoringInfo="(for use in forms)" List="Docs" FieldRef="ID" ShowField="LeafName" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileLeafRef" FromBaseType="TRUE" />
-      <Field ID="{4b7403de-8d94-43e8-9f0f-137a3e298126}" Name="UniqueId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Unique Id" List="Docs" FieldRef="ID" ShowField="UniqueId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="UniqueId" FromBaseType="TRUE" />
-      <Field ID="{6d2c4fde-3605-428e-a236-ce5f3dc2b4d4}" Name="SyncClientId" DisplaceOnUpgrade="TRUE" Hidden="TRUE" ReadOnly="TRUE" DisplayName="Client Id" ShowInFileDlg="FALSE" Type="Lookup" List="Docs" FieldRef="ID" ShowField="SyncClientId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SyncClientId" FromBaseType="TRUE" />
-      <Field ID="{c5c4b81c-f1d9-4b43-a6a2-090df32ebb68}" Name="ProgId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="ProgId" List="Docs" FieldRef="ID" ShowField="ProgId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ProgId" FromBaseType="TRUE" />
-      <Field ID="{dddd2420-b270-4735-93b5-92b713d0944d}" Name="ScopeId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="ScopeId" List="Docs" FieldRef="ID" ShowField="ScopeId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ScopeId" FromBaseType="TRUE" />
-      <Field ID="{39360f11-34cf-4356-9945-25c44e68dade}" ReadOnly="TRUE" Hidden="TRUE" Type="Text" Name="File_x0020_Type" DisplaceOnUpgrade="TRUE" DisplayName="File Type" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="File_x0020_Type" FromBaseType="TRUE" ColName="nvarchar13" RowOrdinal="0" />
-      <Field ReadOnly="TRUE" ID="{4ef1b78f-fdba-48dc-b8ab-3fa06a0c9804}" Hidden="TRUE" Type="Computed" Name="HTML_x0020_File_x0020_Type" DisplaceOnUpgrade="TRUE" DisplayName="HTML File Type" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="HTML_x0020_File_x0020_Type" FromBaseType="TRUE">
+      </Field><Field ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Hidden="TRUE" ShowInFileDlg="FALSE" ShowInVersionHistory="FALSE" Type="File" Name="FileLeafRef" DisplaceOnUpgrade="TRUE" DisplayName="Name" AuthoringInfo="(for use in forms)" List="Docs" FieldRef="ID" ShowField="LeafName" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileLeafRef" FromBaseType="TRUE" /><Field ID="{4b7403de-8d94-43e8-9f0f-137a3e298126}" Name="UniqueId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Unique Id" List="Docs" FieldRef="ID" ShowField="UniqueId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="UniqueId" FromBaseType="TRUE" /><Field ID="{6d2c4fde-3605-428e-a236-ce5f3dc2b4d4}" Name="SyncClientId" DisplaceOnUpgrade="TRUE" Hidden="TRUE" ReadOnly="TRUE" DisplayName="Client Id" ShowInFileDlg="FALSE" Type="Lookup" List="Docs" FieldRef="ID" ShowField="SyncClientId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SyncClientId" FromBaseType="TRUE" /><Field ID="{c5c4b81c-f1d9-4b43-a6a2-090df32ebb68}" Name="ProgId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="ProgId" List="Docs" FieldRef="ID" ShowField="ProgId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ProgId" FromBaseType="TRUE" /><Field ID="{dddd2420-b270-4735-93b5-92b713d0944d}" Name="ScopeId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="ScopeId" List="Docs" FieldRef="ID" ShowField="ScopeId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ScopeId" FromBaseType="TRUE" /><Field ID="{39360f11-34cf-4356-9945-25c44e68dade}" ReadOnly="TRUE" Hidden="TRUE" Type="Text" Name="File_x0020_Type" DisplaceOnUpgrade="TRUE" DisplayName="File Type" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="File_x0020_Type" FromBaseType="TRUE" ColName="nvarchar13" RowOrdinal="0" /><Field ReadOnly="TRUE" ID="{4ef1b78f-fdba-48dc-b8ab-3fa06a0c9804}" Hidden="TRUE" Type="Computed" Name="HTML_x0020_File_x0020_Type" DisplaceOnUpgrade="TRUE" DisplayName="HTML File Type" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="HTML_x0020_File_x0020_Type" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="File_x0020_Type" />
         </FieldRefs>
         <DisplayPattern />
-      </Field>
-      <Field ID="{3c6303be-e21f-4366-80d7-d6d0a3b22c7a}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableStart" DisplaceOnUpgrade="TRUE" DisplayName="Edit Menu Table Start" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableStart" FromBaseType="TRUE">
+      </Field><Field ID="{3c6303be-e21f-4366-80d7-d6d0a3b22c7a}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableStart" DisplaceOnUpgrade="TRUE" DisplayName="Edit Menu Table Start" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableStart" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="FileLeafRef" />
           <FieldRef Name="FileDirRef" />
@@ -337,8 +367,7 @@
           <HTML>" SUrl="</HTML>
           <HTML><![CDATA[">]]></HTML>
         </DisplayPattern>
-      </Field>
-      <Field ID="{1344423c-c7f9-4134-88e4-ad842e2d723c}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableStart2" DisplaceOnUpgrade="TRUE" DisplayName="Edit Menu Table Start" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableStart2" FromBaseType="TRUE">
+      </Field><Field ID="{1344423c-c7f9-4134-88e4-ad842e2d723c}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableStart2" DisplaceOnUpgrade="TRUE" DisplayName="Edit Menu Table Start" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableStart2" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="ID" />
         </FieldRefs>
@@ -347,8 +376,7 @@
           <HTML>" id="</HTML>
           <Column Name="ID" HTMLEncode="TRUE" />
         </DisplayPattern>
-      </Field>
-      <Field ID="{2ea78cef-1bf9-4019-960a-02c41636cb47}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableEnd" DisplaceOnUpgrade="TRUE" DisplayName="Edit Menu Table End" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableEnd" FromBaseType="TRUE">
+      </Field><Field ID="{2ea78cef-1bf9-4019-960a-02c41636cb47}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableEnd" DisplaceOnUpgrade="TRUE" DisplayName="Edit Menu Table End" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableEnd" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="ID" />
         </FieldRefs>
@@ -360,8 +388,7 @@
           <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
           <HTML><![CDATA[</div>]]></HTML>
         </DisplayPattern>
-      </Field>
-      <Field ID="{9d30f126-ba48-446b-b8f9-83745f322ebe}" ReadOnly="TRUE" Type="Computed" Name="LinkFilenameNoMenu" DisplaceOnUpgrade="TRUE" DisplayName="Name" Hidden="TRUE" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" AuthoringInfo="(linked to document)" ListItemMenuAllowed="Prohibited" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilenameNoMenu" FromBaseType="TRUE">
+      </Field><Field ID="{9d30f126-ba48-446b-b8f9-83745f322ebe}" ReadOnly="TRUE" Type="Computed" Name="LinkFilenameNoMenu" DisplaceOnUpgrade="TRUE" DisplayName="Name" Hidden="TRUE" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" AuthoringInfo="(linked to document)" ListItemMenuAllowed="Prohibited" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilenameNoMenu" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="FileLeafRef" />
           <FieldRef Name="FSObjType" />
@@ -550,8 +577,7 @@
             </Else>
           </IfEqual>
         </DisplayPattern>
-      </Field>
-      <Field ID="{5cc6dc79-3710-4374-b433-61cb4a686c12}" ReadOnly="TRUE" Type="Computed" Name="LinkFilename" DisplaceOnUpgrade="TRUE" Hidden="TRUE" DisplayName="Name" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" ClassInfo="Menu" AuthoringInfo="(linked to document with edit menu)" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilename" FromBaseType="TRUE">
+      </Field><Field ID="{5cc6dc79-3710-4374-b433-61cb4a686c12}" ReadOnly="TRUE" Type="Computed" Name="LinkFilename" DisplaceOnUpgrade="TRUE" Hidden="TRUE" DisplayName="Name" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" ClassInfo="Menu" AuthoringInfo="(linked to document with edit menu)" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilename" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="LinkFilenameNoMenu" />
           <FieldRef Name="_EditMenuTableStart2" />
@@ -579,8 +605,7 @@
             </Default>
           </FieldSwitch>
         </DisplayPattern>
-      </Field>
-      <Field ID="{224ba411-da77-4050-b0eb-62d422f13d3e}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="LinkFilename2" DisplaceOnUpgrade="TRUE" DisplayName="Name" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" ClassInfo="Menu" AuthoringInfo="(linked to document with edit menu) (old)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilename2" FromBaseType="TRUE">
+      </Field><Field ID="{224ba411-da77-4050-b0eb-62d422f13d3e}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="LinkFilename2" DisplaceOnUpgrade="TRUE" DisplayName="Name" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" ClassInfo="Menu" AuthoringInfo="(linked to document with edit menu) (old)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilename2" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="LinkFilenameNoMenu" />
           <FieldRef Name="_EditMenuTableStart" />
@@ -603,8 +628,7 @@
             </Default>
           </FieldSwitch>
         </DisplayPattern>
-      </Field>
-      <Field ID="{081c6e4c-5c14-4f20-b23e-1a71ceb6a67c}" Type="Computed" ReadOnly="TRUE" Name="DocIcon" DisplaceOnUpgrade="TRUE" DisplayName="Type" TextOnly="TRUE" ClassInfo="Icon" AuthoringInfo="(icon linked to document)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DocIcon" FromBaseType="TRUE">
+      </Field><Field ID="{081c6e4c-5c14-4f20-b23e-1a71ceb6a67c}" Type="Computed" ReadOnly="TRUE" Name="DocIcon" DisplaceOnUpgrade="TRUE" DisplayName="Type" TextOnly="TRUE" ClassInfo="Icon" AuthoringInfo="(icon linked to document)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DocIcon" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="File_x0020_Type" />
           <FieldRef Name="FSObjType" />
@@ -800,8 +824,7 @@
             </Else>
           </IfEqual>
         </DisplayPattern>
-      </Field>
-      <Field ID="{105f76ce-724a-4bba-aece-f81f2fce58f5}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="ServerUrl" DisplaceOnUpgrade="TRUE" DisplayName="Server Relative URL" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ServerUrl" FromBaseType="TRUE">
+      </Field><Field ID="{105f76ce-724a-4bba-aece-f81f2fce58f5}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="ServerUrl" DisplaceOnUpgrade="TRUE" DisplayName="Server Relative URL" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ServerUrl" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="FileRef" />
         </FieldRefs>
@@ -809,8 +832,7 @@
           <HTML>/</HTML>
           <LookupColumn Name="FileRef" />
         </DisplayPattern>
-      </Field>
-      <Field ID="{7177cfc7-f399-4d4d-905d-37dd51bc90bf}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="EncodedAbsUrl" DisplaceOnUpgrade="TRUE" DisplayName="Encoded Absolute URL" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="EncodedAbsUrl" FromBaseType="TRUE">
+      </Field><Field ID="{7177cfc7-f399-4d4d-905d-37dd51bc90bf}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="EncodedAbsUrl" DisplaceOnUpgrade="TRUE" DisplayName="Encoded Absolute URL" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="EncodedAbsUrl" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="FileRef" />
         </FieldRefs>
@@ -819,8 +841,7 @@
           <HTML>/</HTML>
           <LookupColumn Name="FileRef" IncludeVersions="TRUE" URLEncodeAsURL="TRUE" />
         </DisplayPattern>
-      </Field>
-      <Field ID="{7615464b-559e-4302-b8e2-8f440b913101}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="BaseName" DisplaceOnUpgrade="TRUE" DisplayName="File Name" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="BaseName" FromBaseType="TRUE">
+      </Field><Field ID="{7615464b-559e-4302-b8e2-8f440b913101}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="BaseName" DisplaceOnUpgrade="TRUE" DisplayName="File Name" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="BaseName" FromBaseType="TRUE">
         <FieldRefs>
           <FieldRef Name="FileLeafRef" />
           <FieldRef Name="FSObjType" />
@@ -841,89 +862,69 @@
             </Else>
           </IfEqual>
         </DisplayPattern>
-      </Field>
-      <Field ID="{687c7f94-686a-42d3-9b67-2782eac4b4f8}" Name="MetaInfo" DisplaceOnUpgrade="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Property Bag" List="Docs" FieldRef="ID" ShowField="MetaInfo" JoinColName="DoclibRowId" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="MetaInfo" FromBaseType="TRUE" />
-      <Field ID="{43bdd51b-3c5b-4e78-90a8-fb2087f71e70}" ColName="tp_Level" RowOrdinal="0" ReadOnly="TRUE" Type="Integer" Name="_Level" DisplaceOnUpgrade="TRUE" DisplayName="Level" Hidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_Level" FromBaseType="TRUE" />
-      <Field ID="{c101c3e7-122d-4d4d-bc34-58e94a38c816}" ColName="tp_IsCurrentVersion" DisplaceOnUpgrade="TRUE" RowOrdinal="0" ReadOnly="TRUE" Type="Boolean" Name="_IsCurrentVersion" DisplayName="Is Current Version" Hidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_IsCurrentVersion" FromBaseType="TRUE" />
-      <Field ID="{b824e17e-a1b3-426e-aecf-f0184d900485}" Name="ItemChildCount" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Item Child Count" List="Docs" FieldRef="ID" ShowField="ItemChildCount" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ItemChildCount" FromBaseType="TRUE" />
-      <Field ID="{960ff01f-2b6d-4f1b-9c3f-e19ad8927341}" Name="FolderChildCount" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Folder Child Count" List="Docs" FieldRef="ID" ShowField="FolderChildCount" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FolderChildCount" FromBaseType="TRUE" />
-      <Field ID="{6bfaba20-36bf-44b5-a1b2-eb6346d49716}" ColName="tp_AppAuthor" RowOrdinal="0" ReadOnly="TRUE" Hidden="FALSE" Type="Lookup" List="AppPrincipals" Name="AppAuthor" DisplayName="App Created By" ShowField="Title" JoinColName="Id" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AppAuthor" FromBaseType="TRUE" />
-      <Field ID="{e08400f3-c779-4ed2-a18c-ab7f34caa318}" ColName="tp_AppEditor" RowOrdinal="0" ReadOnly="TRUE" Hidden="FALSE" Type="Lookup" List="AppPrincipals" Name="AppEditor" DisplayName="App Modified By" ShowField="Title" JoinColName="Id" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AppEditor" FromBaseType="TRUE" />
-      <Field Type="Choice" DisplayName="DespatchStatus" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{28522c26-9a65-4921-b12b-ae87d7f6ba0c}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DespatchStatus" Name="DespatchStatus" ColName="nvarchar3" RowOrdinal="0">
+      </Field><Field ID="{687c7f94-686a-42d3-9b67-2782eac4b4f8}" Name="MetaInfo" DisplaceOnUpgrade="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Property Bag" List="Docs" FieldRef="ID" ShowField="MetaInfo" JoinColName="DoclibRowId" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="MetaInfo" FromBaseType="TRUE" /><Field ID="{43bdd51b-3c5b-4e78-90a8-fb2087f71e70}" ColName="tp_Level" RowOrdinal="0" ReadOnly="TRUE" Type="Integer" Name="_Level" DisplaceOnUpgrade="TRUE" DisplayName="Level" Hidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_Level" FromBaseType="TRUE" /><Field ID="{c101c3e7-122d-4d4d-bc34-58e94a38c816}" ColName="tp_IsCurrentVersion" DisplaceOnUpgrade="TRUE" RowOrdinal="0" ReadOnly="TRUE" Type="Boolean" Name="_IsCurrentVersion" DisplayName="Is Current Version" Hidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_IsCurrentVersion" FromBaseType="TRUE" /><Field ID="{b824e17e-a1b3-426e-aecf-f0184d900485}" Name="ItemChildCount" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Item Child Count" List="Docs" FieldRef="ID" ShowField="ItemChildCount" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ItemChildCount" FromBaseType="TRUE" /><Field ID="{960ff01f-2b6d-4f1b-9c3f-e19ad8927341}" Name="FolderChildCount" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="Folder Child Count" List="Docs" FieldRef="ID" ShowField="FolderChildCount" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FolderChildCount" FromBaseType="TRUE" /><Field ID="{6bfaba20-36bf-44b5-a1b2-eb6346d49716}" ColName="tp_AppAuthor" RowOrdinal="0" ReadOnly="TRUE" Hidden="FALSE" Type="Lookup" List="AppPrincipals" Name="AppAuthor" DisplayName="App Created By" ShowField="Title" JoinColName="Id" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AppAuthor" FromBaseType="TRUE" /><Field ID="{e08400f3-c779-4ed2-a18c-ab7f34caa318}" ColName="tp_AppEditor" RowOrdinal="0" ReadOnly="TRUE" Hidden="FALSE" Type="Lookup" List="AppPrincipals" Name="AppEditor" DisplayName="App Modified By" ShowField="Title" JoinColName="Id" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="AppEditor" FromBaseType="TRUE" /><Field Type="Choice" DisplayName="DespatchStatus" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{28522c26-9a65-4921-b12b-ae87d7f6ba0c}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DespatchStatus" Name="DespatchStatus" ColName="nvarchar3" RowOrdinal="0">
         <Default>Planned</Default>
         <CHOICES>
-          <CHOICE>Planned</CHOICE>
-          <CHOICE>Cab Allocated</CHOICE>
-          <CHOICE>TripInProgress</CHOICE>
-          <CHOICE>TripCompleted</CHOICE>
-          <CHOICE>TripCancelled</CHOICE>
-          <CHOICE>CabNotAvailable</CHOICE>
-        </CHOICES>
-      </Field>
-      <Field Type="DateTime" DisplayName="StartDateandTime" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateTime" FriendlyDisplayFormat="Disabled" ID="{b7dc8ec6-f918-4618-b830-47ed1e8fea35}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="StartDateandTime" Name="StartDateandTime" ColName="datetime1" RowOrdinal="0">
+          
+          
+          
+          
+          
+          
+        <CHOICE>Planned</CHOICE><CHOICE>Cab Allocated</CHOICE><CHOICE>TripInProgress</CHOICE><CHOICE>TripCompleted</CHOICE><CHOICE>TripCancelled</CHOICE><CHOICE>CabNotAvailable</CHOICE></CHOICES>
+      </Field><Field Type="DateTime" DisplayName="StartDateandTime" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateTime" FriendlyDisplayFormat="Disabled" ID="{b7dc8ec6-f918-4618-b830-47ed1e8fea35}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="StartDateandTime" Name="StartDateandTime" ColName="datetime1" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Text" DisplayName="PickupLocation" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{a764f677-e8da-427b-b87e-850a8fc26e30}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="PickupLocation" Name="PickupLocation" ColName="nvarchar4" RowOrdinal="0">
+      </Field><Field Type="Text" DisplayName="PickupLocation" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{a764f677-e8da-427b-b87e-850a8fc26e30}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="PickupLocation" Name="PickupLocation" ColName="nvarchar4" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Text" DisplayName="DropLocation" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{de65de70-11d2-4e5d-ac23-226e2ca7eb94}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DropLocation" Name="DropLocation" ColName="nvarchar5" RowOrdinal="0">
+      </Field><Field Type="Text" DisplayName="DropLocation" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{de65de70-11d2-4e5d-ac23-226e2ca7eb94}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DropLocation" Name="DropLocation" ColName="nvarchar5" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Text" DisplayName="PassengerName" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{47a76d3c-589e-4b75-a329-bdf9abc11f14}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="PassengerName" Name="PassengerName" ColName="nvarchar6" RowOrdinal="0">
+      </Field><Field Type="Text" DisplayName="PassengerName" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{47a76d3c-589e-4b75-a329-bdf9abc11f14}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="PassengerName" Name="PassengerName" ColName="nvarchar6" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Choice" DisplayName="Vehicle MakeandModel" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{591739cf-9bf1-41c1-aff0-b39c88641f40}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="Vehicle_x0020_MakeandModel" Name="Vehicle_x0020_MakeandModel" ColName="nvarchar7" RowOrdinal="0">
+      </Field><Field Type="Choice" DisplayName="Vehicle MakeandModel" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="Dropdown" FillInChoice="FALSE" ID="{591739cf-9bf1-41c1-aff0-b39c88641f40}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="Vehicle_x0020_MakeandModel" Name="Vehicle_x0020_MakeandModel" ColName="nvarchar7" RowOrdinal="0">
         <Default>Micro</Default>
         <CHOICES>
-          <CHOICE>Micro</CHOICE>
-          <CHOICE>Mini</CHOICE>
-          <CHOICE>Sedan</CHOICE>
-          <CHOICE>Sumo</CHOICE>
-          <CHOICE>Prime</CHOICE>
-          <CHOICE>Tavera</CHOICE>
-        </CHOICES>
-      </Field>
-      <Field Type="Text" DisplayName="CabRegNo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{ca26be8a-7249-476a-82f9-80bedc942cd0}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="CabRegNo" Name="CabRegNo" ColName="nvarchar8" RowOrdinal="0">
+          
+          
+          
+          
+          
+          
+        <CHOICE>Micro</CHOICE><CHOICE>Mini</CHOICE><CHOICE>Sedan</CHOICE><CHOICE>Sumo</CHOICE><CHOICE>Prime</CHOICE><CHOICE>Tavera</CHOICE></CHOICES>
+      </Field><Field Type="Text" DisplayName="CabRegNo" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{ca26be8a-7249-476a-82f9-80bedc942cd0}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="CabRegNo" Name="CabRegNo" ColName="nvarchar8" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Text" DisplayName="DriverName" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{4c92e35c-b75e-45e4-a677-0e8d9b89f2f7}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DriverName" Name="DriverName" ColName="nvarchar9" RowOrdinal="0">
+      </Field><Field Type="Text" DisplayName="DriverName" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{4c92e35c-b75e-45e4-a677-0e8d9b89f2f7}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DriverName" Name="DriverName" ColName="nvarchar9" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Text" DisplayName="DriverMobile" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{178790d8-4fe4-431e-9c48-8a6e100261eb}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DriverMobile" Name="DriverMobile" ColName="nvarchar10" RowOrdinal="0">
+      </Field><Field Type="Text" DisplayName="DriverMobile" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{178790d8-4fe4-431e-9c48-8a6e100261eb}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DriverMobile" Name="DriverMobile" ColName="nvarchar10" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="User" DisplayName="DepatcherName" List="UserInfo" Required="TRUE" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" ID="{334aa106-5be5-4c6b-8a41-d57c339ea30b}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DepatcherName" Name="DepatcherName" ColName="int1" RowOrdinal="0" Group="" />
-      <Field Type="Text" DisplayName="DespatcherMobile" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{2d14e644-5ed5-4b01-9f7e-8fee13613f5b}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DespatcherMobile" Name="DespatcherMobile" ColName="nvarchar11" RowOrdinal="0">
+      </Field><Field Type="User" DisplayName="DepatcherName" List="UserInfo" Required="TRUE" EnforceUniqueValues="FALSE" ShowField="ImnName" UserSelectionMode="PeopleAndGroups" UserSelectionScope="0" ID="{334aa106-5be5-4c6b-8a41-d57c339ea30b}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DepatcherName" Name="DepatcherName" ColName="int1" RowOrdinal="0" Group="" /><Field Type="Text" DisplayName="DespatcherMobile" Required="TRUE" EnforceUniqueValues="FALSE" Indexed="FALSE" MaxLength="255" ID="{2d14e644-5ed5-4b01-9f7e-8fee13613f5b}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DespatcherMobile" Name="DespatcherMobile" ColName="nvarchar11" RowOrdinal="0">
         <Default />
-      </Field>
-      <Field Type="Note" DisplayName="DespatcherNotes" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="TRUE" RichTextMode="FullHtml" IsolateStyles="TRUE" Sortable="FALSE" ID="{d25661f9-61d0-479c-ad0d-426992baa072}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DespatcherNotes" Name="DespatcherNotes" ColName="ntext2" RowOrdinal="0" AppendOnly="FALSE" />
-    </Fields>
+      </Field><Field Type="Note" DisplayName="DespatcherNotes" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="TRUE" RichTextMode="FullHtml" IsolateStyles="TRUE" Sortable="FALSE" ID="{d25661f9-61d0-479c-ad0d-426992baa072}" SourceID="{$ListId:Lists/VehicleDispatchList;}" StaticName="DespatcherNotes" Name="DespatcherNotes" ColName="ntext2" RowOrdinal="0" AppendOnly="FALSE" /></Fields>
     <Forms />
     <Views>
-      <View DisplayName="All Items" DefaultView="TRUE" BaseViewID="1" Type="HTML" MobileView="TRUE" MobileDefaultView="TRUE" ImageUrl="/_layouts/15/images/generic.png?rev=23" XslLink="main.xsl" WebPartZoneID="Main" WebPartOrder="1" Url="AllItems.aspx" SetupPath="pages\viewpage.aspx">
+      
+    <View DisplayName="All Items" DefaultView="TRUE" BaseViewID="1" Type="HTML" MobileView="TRUE" MobileDefaultView="TRUE" ImageUrl="/_layouts/15/images/generic.png?rev=23" XslLink="main.xsl" WebPartZoneID="Main" WebPartOrder="1" Url="AllItems.aspx" SetupPath="pages\viewpage.aspx">
         <XslLink>main.xsl</XslLink>
         <Query>
           <OrderBy>
-            <FieldRef Name="ID" />
-          </OrderBy>
+            
+          <FieldRef Name="ID" /></OrderBy>
         </Query>
         <ViewFields>
-          <FieldRef Name="LinkTitle" />
-          <FieldRef Name="DespatchStatus" />
-          <FieldRef Name="StartDateandTime" />
-          <FieldRef Name="PickupLocation" />
-          <FieldRef Name="DropLocation" />
-          <FieldRef Name="PassengerName" />
-          <FieldRef Name="Vehicle_x0020_MakeandModel" />
-          <FieldRef Name="CabRegNo" />
-          <FieldRef Name="DriverName" />
-          <FieldRef Name="DriverMobile" />
-          <FieldRef Name="DepatcherName" />
-          <FieldRef Name="DespatcherMobile" />
-          <FieldRef Name="DespatcherNotes" />
-        </ViewFields>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="LinkTitle" /><FieldRef Name="DespatchStatus" /><FieldRef Name="StartDateandTime" /><FieldRef Name="PickupLocation" /><FieldRef Name="DropLocation" /><FieldRef Name="PassengerName" /><FieldRef Name="Vehicle_x0020_MakeandModel" /><FieldRef Name="CabRegNo" /><FieldRef Name="DriverName" /><FieldRef Name="DriverMobile" /><FieldRef Name="DepatcherName" /><FieldRef Name="DespatcherMobile" /><FieldRef Name="DespatcherNotes" /></ViewFields>
         <RowLimit Paged="TRUE">30</RowLimit>
-      </View>
-    </Views>
+      </View></Views>
   </MetaData>
 </List>

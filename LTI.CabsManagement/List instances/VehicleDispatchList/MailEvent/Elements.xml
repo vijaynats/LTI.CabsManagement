@@ -2,10 +2,10 @@
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Receivers ListTemplateId="100">
       <Receiver>
-        <Name>EventEmailItemUpdating</Name>
-        <Type>ItemUpdating</Type>
+        <Name>MailEventItemUpdated</Name>
+        <Type>ItemUpdated</Type>
         <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
-        <Class>CabReqInfo.List_instances.VehicleDispatchList.EventEmail.EventEmail</Class>
+        <Class>LTI.CabsManagement.List_instances.VehicleDispatchList.MailEvent.MailEvent</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
   </Receivers>
